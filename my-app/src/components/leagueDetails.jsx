@@ -36,3 +36,5 @@ function LeagueDetails() {
     </Box>
   );
 }
+
+export default LeagueDetails;
