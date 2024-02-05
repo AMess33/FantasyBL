@@ -12,14 +12,25 @@ function LeagueDetails() {
   return (
     <Box>
       <FormControl>
-        <InputLabel></InputLabel>
-        <TextField></TextField>
-        <InputLabel></InputLabel>
+        <InputLabel>Name of your League</InputLabel>
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <InputLabel>Sports League</InputLabel>
         <Select>
-          <MenuItem></MenuItem>
-          <MenuItem></MenuItem>
-          <MenuItem></MenuItem>
-          <MenuItem></MenuItem>
+          <MenuItem>NFL</MenuItem>
+          <MenuItem>NBA</MenuItem>
+          <MenuItem>NHL</MenuItem>
+          <MenuItem>MLB</MenuItem>
+          <MenuItem>NCAA Football</MenuItem>
+        </Select>
+        <InputLabel>Hosting Website</InputLabel>
+        <Select>
+          <MenuItem>ESPN</MenuItem>
+          <MenuItem>Sleeper</MenuItem>
+          <MenuItem>My Fantasy League</MenuItem>
+          <MenuItem>FanTrax</MenuItem>
+          <MenuItem>Yahoo</MenuItem>
+          <MenuItem>FFPC</MenuItem>
+          <MenuItem>CBS Sports</MenuItem>
         </Select>
       </FormControl>
     </Box>
