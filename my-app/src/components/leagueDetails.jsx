@@ -16,21 +16,21 @@ function LeagueDetails() {
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
         <InputLabel>Sports League</InputLabel>
         <Select>
-          <MenuItem>NFL</MenuItem>
-          <MenuItem>NBA</MenuItem>
-          <MenuItem>NHL</MenuItem>
-          <MenuItem>MLB</MenuItem>
-          <MenuItem>NCAA Football</MenuItem>
+          <MenuItem value={"NFL"}>NFL</MenuItem>
+          <MenuItem value={"NBA"}>NBA</MenuItem>
+          <MenuItem value={"NHL"}>NHL</MenuItem>
+          <MenuItem value={"MLB"}>MLB</MenuItem>
+          <MenuItem value={"NCAA Football"}>NCAA Football</MenuItem>
         </Select>
         <InputLabel>Hosting Website</InputLabel>
         <Select>
-          <MenuItem>ESPN</MenuItem>
-          <MenuItem>Sleeper</MenuItem>
-          <MenuItem>My Fantasy League</MenuItem>
-          <MenuItem>FanTrax</MenuItem>
-          <MenuItem>Yahoo</MenuItem>
-          <MenuItem>FFPC</MenuItem>
-          <MenuItem>CBS Sports</MenuItem>
+          <MenuItem value={"ESPN"}>ESPN</MenuItem>
+          <MenuItem value={"Sleeper"}>Sleeper</MenuItem>
+          <MenuItem value={"My Fantasy League"}>My Fantasy League</MenuItem>
+          <MenuItem value={"FanTrax"}>FanTrax</MenuItem>
+          <MenuItem value={"Yahoo"}>Yahoo</MenuItem>
+          <MenuItem value={"FFPC"}>FFPC</MenuItem>
+          <MenuItem value={"CBS Sports"}>CBS Sports</MenuItem>
         </Select>
       </FormControl>
     </Box>
