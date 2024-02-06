@@ -14,10 +14,10 @@ function LeagueType() {
       <FormControl>
         <InputLabel>What Type of Fantasy Contest</InputLabel>
         <Select>
-          <MenuItem>Seasonal Redraft</MenuItem>
-          <MenuItem>Dynasty</MenuItem>
-          <MenuItem>Keeper</MenuItem>
-          <MenuItem>Playoff Contest</MenuItem>
+          <MenuItem value={"Redraft"}>Seasonal Redraft</MenuItem>
+          <MenuItem value={"Dynasty"}>Dynasty</MenuItem>
+          <MenuItem value={"Keeper"}>Keeper</MenuItem>
+          <MenuItem value={"Playoff"}>Playoff Contest</MenuItem>
         </Select>
       </FormControl>
     </Box>
