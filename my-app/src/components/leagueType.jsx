@@ -19,6 +19,13 @@ function LeagueType() {
           <MenuItem value={"Keeper"}>Keeper</MenuItem>
           <MenuItem value={"Playoff"}>Playoff Contest</MenuItem>
         </Select>
+        <InputLabel>Special League Type?</InputLabel>
+        <Select>
+          <MenuItem value={"Devy"}>Devy</MenuItem>
+          <MenuItem value={"Empire"}>Empire</MenuItem>
+          <MenuItem value={"Contract"}>Contract</MenuItem>
+          <MenuItem value={"BestBall"}>BestBall</MenuItem>
+        </Select>
       </FormControl>
     </Box>
   );
