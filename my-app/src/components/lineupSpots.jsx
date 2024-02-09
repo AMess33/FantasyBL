@@ -49,7 +49,55 @@ function FootballLineup() {
 }
 
 // NBA Lineup
-
+function BasketballLineup() {
+  return (
+    <Box>
+      <FormControl>
+        <label>How many starters for each position?</label>
+        <InputLabel>Point Gaurd</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <InputLabel>Shooting Gaurd</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <Select>4</Select>
+        <InputLabel>Small Forward</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <Select>4</Select>
+        <Select>5</Select>
+        <InputLabel>Power Forward</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <InputLabel>Center</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <InputLabel>Guard (PG/SG)</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <Select>4</Select>
+        <Select>5</Select>
+        <InputLabel>Forward (SF/PF)</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <Select>4</Select>
+        <Select>5</Select>
+        <InputLabel>Utility Player (PG/SG/SF/PF/C)</InputLabel>
+        <Select>1</Select>
+        <Select>2</Select>
+        <Select>3</Select>
+        <Select>4</Select>
+      </FormControl>
+    </Box>
+  );
+}
 // MLB Lineup
 
 // NHL Lineup
