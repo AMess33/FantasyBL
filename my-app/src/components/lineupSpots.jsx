@@ -16,33 +16,49 @@ function FootballLineup() {
       <FormControl>
         <label>How many starters for each position?</label>
         <InputLabel>QB</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+        </Select>
         <InputLabel>RB</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+
         <InputLabel>WR</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
-        <Select>5</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
+        </Select>
+
         <InputLabel>TE</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+        </Select>
+
         <InputLabel>SuperFlex (QB/RB/WR/TE)</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+        </Select>
+
         <InputLabel>Flex (RB/WR/TE)</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
-        <Select>5</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
+        </Select>
       </FormControl>
     </Box>
   );
@@ -55,45 +71,67 @@ function BasketballLineup() {
       <FormControl>
         <label>How many starters for each position?</label>
         <InputLabel>Point Gaurd</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+        </Select>
         <InputLabel>Shooting Gaurd</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+
         <InputLabel>Small Forward</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
-        <Select value={5}>5</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
+        </Select>
+
         <InputLabel>Power Forward</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+        </Select>
+
         <InputLabel>Center</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+        </Select>
+
         <InputLabel>Guard (PG/SG)</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
-        <Select value={5}>5</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
+        </Select>
+
         <InputLabel>Forward (SF/PF)</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
-        <Select value={5}>5</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
+        </Select>
+
         <InputLabel>Utility Player (PG/SG/SF/PF/C)</InputLabel>
-        <Select value={1}>1</Select>
-        <Select value={2}>2</Select>
-        <Select value={3}>3</Select>
-        <Select value={4}>4</Select>
+        <Select>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
       </FormControl>
     </Box>
   );
