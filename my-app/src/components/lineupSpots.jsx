@@ -10,7 +10,7 @@ import {
 
 // Display based off league details selection
 // Football Lineup
-function FootballLineup() {
+export function FootballLineup() {
   return (
     <Box>
       <FormControl>
@@ -65,7 +65,7 @@ function FootballLineup() {
 }
 
 // NBA Lineup
-function BasketballLineup() {
+export function BasketballLineup() {
   return (
     <Box>
       <FormControl>
