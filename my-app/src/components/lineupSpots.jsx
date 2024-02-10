@@ -190,6 +190,55 @@ export function BaseballLineup() {
           <MenuItem value={3}>3</MenuItem>
           <MenuItem value={4}>4</MenuItem>
         </Select>
+        <InputLabel>Catcher</InputLabel>
+        <Select labelId="CAT" id="CATSpots" value={Number} label="CATs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Starting Pitcher</InputLabel>
+        <Select labelId="SP" id="SPSpots" value={Number} label="SPs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Relief Pitcher</InputLabel>
+        <Select labelId="RP" id="RPSpots" value={Number} label="RPs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Closer</InputLabel>
+        <Select labelId="CL" id="CLSpots" value={Number} label="CLs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Infielder (1B, 2B, 3B, SS)</InputLabel>
+        <Select labelId="UTIL" id="UTILSpots" value={Number} label="UTILs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Outfielder (LF/RF/CF)</InputLabel>
+        <Select labelId="UTIL" id="UTILSpots" value={Number} label="UTILs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Utility Player (C/1B/2B/3B/SS/LF/CF/RF)</InputLabel>
+        <Select labelId="UTILBase" id="UBASESpots" value={Number} label="UTBs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
       </FormControl>
     </Box>
   );
