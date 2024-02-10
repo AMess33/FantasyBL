@@ -137,5 +137,62 @@ export function BasketballLineup() {
   );
 }
 // MLB Lineup
+export function BaseballLineup() {
+  return (
+    <Box>
+      <FormControl>
+        <InputLabel>1st Base</InputLabel>
+        <Select labelId="1stB" id="1BSpots" value={Number} label="1Bs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>2nd Base</InputLabel>
+        <Select labelId="2ndB" id="2BSpots" value={Number} label="2Bs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Short Stop</InputLabel>
+        <Select labelId="SS" id="SSSpots" value={Number} label="SSs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>3rd Base</InputLabel>
+        <Select labelId="3rdB" id="3BSpots" value={Number} label="3Bs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Right Field</InputLabel>
+        <Select labelId="RF" id="RFSpots" value={Number} label="RFs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Center Field</InputLabel>
+        <Select labelId="CF" id="CFSpots" value={Number} label="CFs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Left Field</InputLabel>
+        <Select labelId="LF" id="LFSpots" value={Number} label="LFs">
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+      </FormControl>
+    </Box>
+  );
+}
 
 // NHL Lineup
