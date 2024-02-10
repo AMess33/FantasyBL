@@ -17,12 +17,14 @@ export function FootballLineup() {
         <label>How many starters for each position?</label>
         <InputLabel>Quarter Back</InputLabel>
         <Select labelId="QB" id="QBSpots" value={Number} label="QBs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
         </Select>
         <InputLabel>Running Back</InputLabel>
         <Select labelId="RB" id="RBSpots" value={Number} label="RBs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -31,6 +33,7 @@ export function FootballLineup() {
 
         <InputLabel>Wide Reciever</InputLabel>
         <Select labelId="WR" id="WRSpots" value={Number} label="WRs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -40,6 +43,7 @@ export function FootballLineup() {
 
         <InputLabel>Tight End</InputLabel>
         <Select labelId="TE" id="TESpots" value={Number} label="TEs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -47,12 +51,14 @@ export function FootballLineup() {
 
         <InputLabel>SuperFlex (QB/RB/WR/TE)</InputLabel>
         <Select labelId="SFX" id="SFXSpots" value={Number} label="SFXs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
         </Select>
 
         <InputLabel>Flex (RB/WR/TE)</InputLabel>
         <Select labelId="Flex" id="FlexSpots" value={Number} label="Flexs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -72,12 +78,14 @@ export function BasketballLineup() {
         <label>How many starters for each position?</label>
         <InputLabel>Point Gaurd</InputLabel>
         <Select labelId="PG" id="PGSpots" value={Number} label="PGs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
         </Select>
         <InputLabel>Shooting Gaurd</InputLabel>
         <Select labelId="SG" id="SGSpots" value={Number} label="SGs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -86,6 +94,7 @@ export function BasketballLineup() {
 
         <InputLabel>Small Forward</InputLabel>
         <Select labelId="SF" id="SFSpots" value={Number} label="SFs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -95,6 +104,7 @@ export function BasketballLineup() {
 
         <InputLabel>Power Forward</InputLabel>
         <Select labelId="PF" id="PFSpots" value={Number} label="PFs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -102,6 +112,7 @@ export function BasketballLineup() {
 
         <InputLabel>Center</InputLabel>
         <Select labelId="C" id="CSpots" value={Number} label="Cs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -109,6 +120,7 @@ export function BasketballLineup() {
 
         <InputLabel>Guard (PG/SG)</InputLabel>
         <Select labelId="Guard" id="GSpots" value={Number} label="Gs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -118,6 +130,7 @@ export function BasketballLineup() {
 
         <InputLabel>Forward (SF/PF)</InputLabel>
         <Select labelId="Forward" id="FSpots" value={Number} label="Fs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -127,6 +140,7 @@ export function BasketballLineup() {
 
         <InputLabel>Utility Player (PG/SG/SF/PF/C)</InputLabel>
         <Select labelId="UTIL" id="UTILSpots" value={Number} label="UTILs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -143,6 +157,7 @@ export function BaseballLineup() {
       <FormControl>
         <InputLabel>1st Base</InputLabel>
         <Select labelId="1stB" id="1BSpots" value={Number} label="1Bs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -150,6 +165,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>2nd Base</InputLabel>
         <Select labelId="2ndB" id="2BSpots" value={Number} label="2Bs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -157,6 +173,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Short Stop</InputLabel>
         <Select labelId="SS" id="SSSpots" value={Number} label="SSs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -164,6 +181,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>3rd Base</InputLabel>
         <Select labelId="3rdB" id="3BSpots" value={Number} label="3Bs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -171,6 +189,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Right Field</InputLabel>
         <Select labelId="RF" id="RFSpots" value={Number} label="RFs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -178,6 +197,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Center Field</InputLabel>
         <Select labelId="CF" id="CFSpots" value={Number} label="CFs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -185,6 +205,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Left Field</InputLabel>
         <Select labelId="LF" id="LFSpots" value={Number} label="LFs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -192,6 +213,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Catcher</InputLabel>
         <Select labelId="CAT" id="CATSpots" value={Number} label="CATs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -199,6 +221,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Starting Pitcher</InputLabel>
         <Select labelId="SP" id="SPSpots" value={Number} label="SPs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -206,6 +229,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Relief Pitcher</InputLabel>
         <Select labelId="RP" id="RPSpots" value={Number} label="RPs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -213,6 +237,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Closer</InputLabel>
         <Select labelId="CL" id="CLSpots" value={Number} label="CLs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -220,6 +245,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Infielder (1B, 2B, 3B, SS)</InputLabel>
         <Select labelId="UTIL" id="UTILSpots" value={Number} label="UTILs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -227,6 +253,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Outfielder (LF/RF/CF)</InputLabel>
         <Select labelId="UTIL" id="UTILSpots" value={Number} label="UTILs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -234,6 +261,7 @@ export function BaseballLineup() {
         </Select>
         <InputLabel>Utility Player (C/1B/2B/3B/SS/LF/CF/RF)</InputLabel>
         <Select labelId="UTILBase" id="UBASESpots" value={Number} label="UTBs">
+          <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
