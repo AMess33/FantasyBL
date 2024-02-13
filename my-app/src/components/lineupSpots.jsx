@@ -82,6 +82,8 @@ export function BasketballLineup() {
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
         </Select>
         <InputLabel>Shooting Gaurd</InputLabel>
         <Select labelId="SG" id="SGSpots" value={Number} label="SGs">
@@ -90,6 +92,7 @@ export function BasketballLineup() {
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
           <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
         </Select>
 
         <InputLabel>Small Forward</InputLabel>
@@ -108,6 +111,8 @@ export function BasketballLineup() {
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
         </Select>
 
         <InputLabel>Center</InputLabel>
@@ -116,6 +121,8 @@ export function BasketballLineup() {
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
         </Select>
 
         <InputLabel>Guard (PG/SG)</InputLabel>
@@ -145,6 +152,14 @@ export function BasketballLineup() {
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
           <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
+          <MenuItem value={6}>6</MenuItem>
+          <MenuItem value={7}>7</MenuItem>
+          <MenuItem value={8}>8</MenuItem>
+          <MenuItem value={9}>9</MenuItem>
+          <MenuItem value={10}>10</MenuItem>
+          <MenuItem value={11}>11</MenuItem>
+          <MenuItem value={12}>12</MenuItem>
         </Select>
       </FormControl>
     </Box>
@@ -289,7 +304,7 @@ export function HockeyLineup() {
           <MenuItem value={6}>6</MenuItem>
         </Select>
         <InputLabel>Skaters (LW/C/RW/D)</InputLabel>
-        <Select labelId="SG" id="SGSpots" value={Number} label="SGs">
+        <Select labelId="SK" id="SKSpots" value={Number} label="SKs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -321,7 +336,7 @@ export function HockeyLineup() {
           <MenuItem value={4}>4</MenuItem>
         </Select>
         <InputLabel>Right Wing</InputLabel>
-        <Select labelId="RW" id="RWSpots" value={Number} label="RWS">
+        <Select labelId="RW" id="RWSpots" value={Number} label="RWs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
