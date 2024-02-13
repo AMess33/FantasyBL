@@ -25,6 +25,7 @@ function LeagueType() {
           <MenuItem value={"Empire"}>Empire</MenuItem>
           <MenuItem value={"Contract"}>Contract</MenuItem>
           <MenuItem value={"BestBall"}>BestBall</MenuItem>
+          <MenuItem value={"Guillotine"}>Guillotine</MenuItem>
         </Select>
       </FormControl>
     </Box>
