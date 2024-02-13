@@ -273,7 +273,7 @@ export function BaseballLineup() {
 }
 
 // NHL Lineup
-export function NHLLineup() {
+export function HockeyLineup() {
   return (
     <Box>
       <FormControl>
@@ -284,6 +284,9 @@ export function NHLLineup() {
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+          <MenuItem value={5}>5</MenuItem>
+          <MenuItem value={6}>6</MenuItem>
         </Select>
         <InputLabel>Skaters (LW/C/RW/D)</InputLabel>
         <Select labelId="SG" id="SGSpots" value={Number} label="SGs">
@@ -300,6 +303,38 @@ export function NHLLineup() {
           <MenuItem value={10}>10</MenuItem>
           <MenuItem value={11}>11</MenuItem>
           <MenuItem value={12}>12</MenuItem>
+        </Select>
+        <InputLabel>Left Wing</InputLabel>
+        <Select labelId="LW" id="LWSpots" value={Number} label="LWs">
+          <MenuItem value={0}>0</MenuItem>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Center</InputLabel>
+        <Select labelId="C" id="CSpots" value={Number} label="Cs">
+          <MenuItem value={0}>0</MenuItem>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Right Wing</InputLabel>
+        <Select labelId="RW" id="RWSpots" value={Number} label="RWS">
+          <MenuItem value={0}>0</MenuItem>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
+        </Select>
+        <InputLabel>Defensemen</InputLabel>
+        <Select labelId="D" id="DSpots" value={Number} label="Ds">
+          <MenuItem value={0}>0</MenuItem>
+          <MenuItem value={1}>1</MenuItem>
+          <MenuItem value={2}>2</MenuItem>
+          <MenuItem value={3}>3</MenuItem>
+          <MenuItem value={4}>4</MenuItem>
         </Select>
       </FormControl>
     </Box>
