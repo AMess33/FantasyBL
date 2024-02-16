@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-export function BasketballLineup() {
+function BasketballLineup() {
   return (
     <Box>
       <FormControl>
@@ -102,3 +102,5 @@ export function BasketballLineup() {
     </Box>
   );
 }
+
+export default BasketballLineup;

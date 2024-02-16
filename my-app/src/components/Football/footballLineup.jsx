@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-export function FootballLineup() {
+function FootballLineup() {
   return (
     <Box>
       <FormControl>
@@ -67,3 +67,5 @@ export function FootballLineup() {
     </Box>
   );
 }
+
+export default FootballLineup;
