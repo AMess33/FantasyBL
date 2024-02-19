@@ -18,3 +18,5 @@ function Scoring() {
     </Box>
   );
 }
+
+export default Scoring;
