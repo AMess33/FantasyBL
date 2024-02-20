@@ -12,7 +12,7 @@ function Scoring() {
   return (
     <Box>
       <FormControl>
-        <label>What is your scoring system?</label>
+        <label>Do you have any special scoring settings?</label>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>

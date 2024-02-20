@@ -12,7 +12,12 @@ function Drafts() {
   return (
     <Box>
       <FormControl>
-        <label>How many rounds of drafting?</label>
+        <label>What draft format do you use?</label>
+        <Select>
+          <MenuItem value={"Auction"}>Auction</MenuItem>
+          <MenuItem value={"Snake Draft"}>Snake Draft</MenuItem>
+        </Select>
+        <label>How do you determine draft order?</label>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>
