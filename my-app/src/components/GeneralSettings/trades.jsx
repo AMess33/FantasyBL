@@ -25,6 +25,8 @@ function Trades() {
           label="Outlined"
           variant="outlined"
         ></TextField>
+        <label>What do you do if Colusion is suspected?</label>
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>
   );

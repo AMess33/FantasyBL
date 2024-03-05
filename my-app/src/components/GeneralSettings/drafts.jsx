@@ -19,6 +19,8 @@ function Drafts() {
         </Select>
         <label>How do you determine draft order?</label>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <label>Multiple drafts a year? Explain those settings here</label>
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>
   );
