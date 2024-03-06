@@ -12,20 +12,20 @@ function Trades() {
   return (
     <Box>
       <FormControl>
-        <label>What is able to be traded in your league?</label>
+        <InputLabel>What is able to be traded in your league?</InputLabel>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
         <InputLabel>Does your league allow trade vetos?</InputLabel>
         <Select>
           <MenuItem value={"NoVeto"}>No Trade Vetos</MenuItem>
           <MenuItem value={"Yes"}>Allow Trade Vetos</MenuItem>
         </Select>
-        <label>Trade Colusion Settings</label>
+        <InputLabel>Trade Colusion Settings</InputLabel>
         <TextField
           id="outlined-basic"
           label="Outlined"
           variant="outlined"
         ></TextField>
-        <label>What do you do if Colusion is suspected?</label>
+        <InputLabel>What do you do if Colusion is suspected?</InputLabel>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>

@@ -12,7 +12,7 @@ function HockeyLineup() {
   return (
     <Box>
       <FormControl>
-        <label>How many starters for each position?</label>
+        <h3>How many starters for each position?</h3>
         <InputLabel>Goalies</InputLabel>
         <Select labelId="G" id="GSpots" value={Number} label="Gs">
           <MenuItem value={0}>0</MenuItem>

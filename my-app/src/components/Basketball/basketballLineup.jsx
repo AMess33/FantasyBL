@@ -12,7 +12,7 @@ function BasketballLineup() {
   return (
     <Box>
       <FormControl>
-        <label>How many starters for each position?</label>
+        <h3>How many starters for each position?</h3>
         <InputLabel>Point Gaurd</InputLabel>
         <Select labelId="PG" id="PGSpots" value={Number} label="PGs">
           <MenuItem value={0}>0</MenuItem>

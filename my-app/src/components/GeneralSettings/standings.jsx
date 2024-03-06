@@ -12,9 +12,9 @@ function Standings() {
   return (
     <Box>
       <FormControl>
-        <label>How are your standings determined?</label>
+        <InputLabel>How are your standings determined?</InputLabel>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-        <label>Is tanking allowed</label>
+        <InputLabel>Is tanking allowed</InputLabel>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>

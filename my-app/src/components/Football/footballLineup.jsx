@@ -12,7 +12,7 @@ function FootballLineup() {
   return (
     <Box>
       <FormControl>
-        <label>How many starters for each position?</label>
+        <h3>How many starters for each position?</h3>
         <InputLabel>Quarter Back</InputLabel>
         <Select labelId="QB" id="QBSpots" value={Number} label="QBs">
           <MenuItem value={0}>0</MenuItem>

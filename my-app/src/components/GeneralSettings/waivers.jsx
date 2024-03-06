@@ -12,7 +12,7 @@ function Waivers() {
   return (
     <Box>
       <FormControl>
-        <label>Waiver Settings</label>
+        <h3>Waiver Settings</h3>
         <Select>
           <MenuItem value={"FCFS"}>First Come First Serve</MenuItem>
           <MenuItem value={"FAAB"}>
@@ -22,7 +22,7 @@ function Waivers() {
             Continual Rolling List Waivers
           </MenuItem>
         </Select>
-        <label>Explain any special waiver settings</label>
+        <h3>Explain any special waiver settings</h3>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>

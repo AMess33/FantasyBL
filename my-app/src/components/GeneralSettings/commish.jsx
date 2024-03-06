@@ -1,11 +1,11 @@
 import React from "react";
-import { FormControl, TextField, Box, Label } from "@mui/material";
+import { FormControl, TextField, Box, InputLabel } from "@mui/material";
 
 function Commish() {
   return (
     <Box>
       <FormControl>
-        <Label>Commisioner's best intrest clause?</Label>
+        <InputLabel>Commisioner's best intrest clause?</InputLabel>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>
