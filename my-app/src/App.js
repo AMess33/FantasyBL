@@ -15,6 +15,7 @@ import Drafts from "./components/GeneralSettings/drafts";
 import Scoring from "./components/GeneralSettings/scoring";
 import Waivers from "./components/GeneralSettings/waivers";
 import Standings from "./components/GeneralSettings/standings";
+import Lineup from "./components/GeneralSettings/lineup";
 function App() {
   return (
     <div className="App">
@@ -22,11 +23,12 @@ function App() {
         <LeagueDetails />
         <LeagueType />
         <LeagueStyle />
-        <NumberOfTeams />
-        <RosterSize />
         <OwnerFees />
         <PlacesPaidOut />
+        <NumberOfTeams />
         <Standings />
+        <RosterSize />
+        <Lineup />
         <Scoring />
         <Trades />
         <Drafts />
