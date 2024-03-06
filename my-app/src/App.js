@@ -19,7 +19,8 @@ import Lineup from "./components/GeneralSettings/lineup";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header">Fantasy By Laws Generator</header>
+      <div className="App-body">
         <LeagueDetails />
         <LeagueType />
         <LeagueStyle />
@@ -35,7 +36,7 @@ function App() {
         <Waivers />
         <Commish />
         <Owner />
-      </header>
+      </div>
     </div>
   );
 }
