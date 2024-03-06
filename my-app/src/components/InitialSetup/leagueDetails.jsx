@@ -28,9 +28,13 @@ function LeagueDetails() {
           <MenuItem value={"Sleeper"}>Sleeper</MenuItem>
           <MenuItem value={"My Fantasy League"}>My Fantasy League</MenuItem>
           <MenuItem value={"FanTrax"}>FanTrax</MenuItem>
-          <MenuItem value={"Yahoo"}>Yahoo</MenuItem>
+          <MenuItem value={"Yahoo"}>Yahoo!</MenuItem>
           <MenuItem value={"FFPC"}>FFPC</MenuItem>
           <MenuItem value={"CBS Sports"}>CBS Sports</MenuItem>
+          <MenuItem value={"FanDuel"}>FanDuel</MenuItem>
+          <MenuItem value={"DraftKings"}>DraftKings</MenuItem>
+          <MenuItem value={"FFPC"}>FFPC</MenuItem>
+          <MenuItem value={"Other"}>Other</MenuItem>
         </Select>
       </FormControl>
     </Box>
