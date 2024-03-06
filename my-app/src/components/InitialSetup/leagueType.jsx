@@ -31,3 +31,5 @@ function LeagueType() {
     </Box>
   );
 }
+
+export default LeagueType;
