@@ -13,7 +13,7 @@ function LeagueDetails() {
     <Box>
       <FormControl>
         <InputLabel>Name of your League</InputLabel>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <TextField id="outlined-basic" label="" variant="outlined" />
         <InputLabel>Sports League</InputLabel>
         <Select>
           <MenuItem value={"NFL"}>NFL</MenuItem>

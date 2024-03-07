@@ -1,9 +1,9 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import BaseballLineup from "./Baseball/baseballLineup";
-import BasketballLineup from "./Basketball/basketballLineup";
-import FootballLineup from "./Football/footballLineup";
-import HockeyLineup from "./Hockey/hockeyLineup";
+import BaseballLineup from "../Baseball/baseballLineup";
+import BasketballLineup from "../Basketball/basketballLineup";
+import FootballLineup from "../Football/footballLineup";
+import HockeyLineup from "../Hockey/hockeyLineup";
 
 function Lineup() {
   return (

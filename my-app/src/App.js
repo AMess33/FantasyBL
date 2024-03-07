@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import React from "react";
 import LeagueDetails from "./components/InitialSetup/leagueDetails";
 import LeagueType from "./components/InitialSetup/leagueType";
 import {
