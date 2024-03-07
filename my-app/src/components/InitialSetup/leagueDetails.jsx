@@ -8,14 +8,24 @@ import {
   TextField,
 } from "@mui/material";
 // return league name/ sport/ league/ league type
-function LeagueDetails() {
+function LeagueDetails(props) {
+  // setValues(prevValues => ({...prevValues, thisValue: event.target.value }))
+  // }
   return (
     <Box>
       <FormControl>
         <InputLabel>Name of your League</InputLabel>
         <TextField id="outlined-basic" label="" variant="outlined" />
         <InputLabel>Sports League</InputLabel>
-        <Select>
+        <Select
+          value={props.value.sport}
+          onChange={(event) => {
+            props.setValue((prevValues) => ({
+              ...prevValues,
+              sport: event.target.value,
+            }));
+          }}
+        >
           <MenuItem value={"NFL"}>NFL</MenuItem>
           <MenuItem value={"NBA"}>NBA</MenuItem>
           <MenuItem value={"NHL"}>NHL</MenuItem>

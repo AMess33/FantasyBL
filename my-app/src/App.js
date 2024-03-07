@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import LeagueDetails from "./components/InitialSetup/leagueDetails";
 import LeagueType from "./components/InitialSetup/leagueType";
@@ -17,25 +18,28 @@ import Waivers from "./components/GeneralSettings/standings";
 import Standings from "./components/GeneralSettings/standings";
 import Lineup from "./components/GeneralSettings/lineup";
 function App() {
+  const [value, setValue] = React.useState({});
+  console.log(value);
+
   return (
     <div className="App">
       <header className="App-header">Fantasy By Laws Generator</header>
       <div className="App-body">
-        <LeagueDetails />
-        <LeagueType />
-        <LeagueStyle />
-        <OwnerFees />
-        <PlacesPaidOut />
-        <NumberOfTeams />
-        <Standings />
-        <RosterSize />
-        <Lineup />
-        <Scoring />
-        <Trades />
-        <Drafts />
-        <Waivers />
-        <Commish />
-        <Owner />
+        <LeagueDetails value={value} setValue={setValue} />
+        <LeagueType value={value} setValue={setValue} />
+        <LeagueStyle value={value} setValue={setValue} />
+        <OwnerFees value={value} setValue={setValue} />
+        <PlacesPaidOut value={value} setValue={setValue} />
+        <NumberOfTeams value={value} setValue={setValue} />
+        <Standings value={value} setValue={setValue} />
+        <RosterSize value={value} setValue={setValue} />
+        <Lineup value={value} setValue={setValue} />
+        <Scoring value={value} setValue={setValue} />
+        <Trades value={value} setValue={setValue} />
+        <Drafts value={value} setValue={setValue} />
+        <Waivers value={value} setValue={setValue} />
+        <Commish value={value} setValue={setValue} />
+        <Owner value={value} setValue={setValue} />
       </div>
     </div>
   );
