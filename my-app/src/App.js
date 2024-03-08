@@ -21,6 +21,10 @@ function App() {
   const [value, setValue] = React.useState({});
   console.log(value);
 
+  // handleChange(fieldName => {
+  //   return event => {
+  //     setValue(prev => ({ …prev, [fieldName]: e.target.value })
+  // onChange={handleChange(‘sport’)}
   return (
     <div className="App">
       <header className="App-header">Fantasy By Laws Generator</header>

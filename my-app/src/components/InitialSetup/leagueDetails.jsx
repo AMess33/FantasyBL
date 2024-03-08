@@ -18,6 +18,9 @@ function LeagueDetails(props) {
         <TextField id="outlined-basic" label="" variant="outlined" />
         <InputLabel>Sports League</InputLabel>
         <Select
+          labelId="Sport"
+          id="Sport"
+          label="Sport"
           value={props.value.sport}
           onChange={(event) => {
             props.setValue((prevValues) => ({
@@ -33,7 +36,12 @@ function LeagueDetails(props) {
           <MenuItem value={"NCAA Football"}>NCAA Football</MenuItem>
         </Select>
         <InputLabel>Hosting Website</InputLabel>
-        <Select>
+        <Select
+          labelId="HostSite"
+          id="HostSite"
+          value={props.value.website}
+          label="Host"
+        >
           <MenuItem value={"ESPN"}>ESPN</MenuItem>
           <MenuItem value={"Sleeper"}>Sleeper</MenuItem>
           <MenuItem value={"My Fantasy League"}>My Fantasy League</MenuItem>

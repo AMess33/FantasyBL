@@ -5,7 +5,8 @@ import BasketballLineup from "../Basketball/basketballLineup";
 import FootballLineup from "../Football/footballLineup";
 import HockeyLineup from "../Hockey/hockeyLineup";
 
-function Lineup() {
+function Lineup(props) {
+  // if props.value.sport = baseball return baseballLineup
   return (
     <Box>
       {/* display the lineup based on what was selected from leaugeDetails form */}
