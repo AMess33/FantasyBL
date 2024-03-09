@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 
 // league style
-export function LeagueStyle() {
+export function LeagueStyle(props) {
   return (
     <Box>
       <FormControl>
@@ -29,7 +29,7 @@ export function LeagueStyle() {
 }
 
 // Number of teams
-export function NumberOfTeams() {
+export function NumberOfTeams(props) {
   return (
     <Box>
       <FormControl>
@@ -53,7 +53,7 @@ export function NumberOfTeams() {
 }
 
 // Roster Size
-export function RosterSize() {
+export function RosterSize(props) {
   return (
     <Box>
       <FormControl>
@@ -83,7 +83,7 @@ export function RosterSize() {
 }
 
 // Owner Fees
-export function OwnerFees() {
+export function OwnerFees(props) {
   return (
     <Box>
       <FormControl>
@@ -95,7 +95,7 @@ export function OwnerFees() {
 }
 
 // Places Paid out
-export function PlacesPaidOut() {
+export function PlacesPaidOut(props) {
   return (
     <Box>
       <FormControl>
