@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-function HockeyLineup() {
+function HockeyLineup(props) {
   return (
     <Box>
       <FormControl>
