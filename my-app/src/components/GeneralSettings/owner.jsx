@@ -1,7 +1,7 @@
 import React from "react";
 import { FormControl, Box, InputLabel, TextField } from "@mui/material";
 
-function OwnerExpectations() {
+function OwnerExpectations(props) {
   return (
     <Box>
       <FormControl>

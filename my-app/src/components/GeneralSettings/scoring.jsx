@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-function Scoring() {
+function Scoring(props) {
   return (
     <Box>
       <FormControl>

@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-function Waivers() {
+function Waivers(props) {
   return (
     <Box>
       <FormControl>

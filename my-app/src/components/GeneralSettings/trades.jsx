@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-function Trades() {
+function Trades(props) {
   return (
     <Box>
       <FormControl>

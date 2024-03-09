@@ -1,7 +1,7 @@
 import React from "react";
 import { FormControl, TextField, Box, InputLabel } from "@mui/material";
 
-function Commish() {
+function Commish(props) {
   return (
     <Box>
       <FormControl>

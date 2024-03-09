@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-function Standings() {
+function Standings(props) {
   return (
     <Box>
       <FormControl>
