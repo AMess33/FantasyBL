@@ -8,7 +8,7 @@ import {
   TextField,
 } from "@mui/material";
 
-function LeagueType() {
+function LeagueType(props) {
   return (
     <Box>
       <FormControl>
