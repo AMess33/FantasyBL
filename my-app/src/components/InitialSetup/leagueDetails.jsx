@@ -15,7 +15,12 @@ function LeagueDetails(props) {
     <Box>
       <FormControl>
         <InputLabel>Name of your League</InputLabel>
-        <TextField id="outlined-basic" label="" variant="outlined" />
+        <TextField
+          id="leagueName"
+          value={props.value.leagueName}
+          label="League Name"
+          variant="filled"
+        />
         <InputLabel>Sports League</InputLabel>
         <Select
           labelId="Sport"
