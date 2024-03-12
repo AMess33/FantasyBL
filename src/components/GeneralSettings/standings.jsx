@@ -1,23 +1,22 @@
 import React from "react";
-import {
-  FormControl,
-  Select,
-  Box,
-  InputLabel,
-  MenuItem,
-  TextField,
-} from "@mui/material";
+import { FormControl, Box, TextField } from "@mui/material";
 
 function Standings(props) {
   return (
-    <Box>
-      <FormControl>
-        <InputLabel>How are your standings determined?</InputLabel>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-        <InputLabel>Is tanking allowed</InputLabel>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-      </FormControl>
-    </Box>
+    <div>
+      <Box sx={{ minWidth: 120 }}>
+        <FormControl sx={{ width: "33%" }}>
+          <h3>How are Standings determined?</h3>
+          <TextField id="outlined-basic" variant="filled" />
+        </FormControl>
+      </Box>
+      <Box sx={{ minWidth: 120 }}>
+        <FormControl sx={{ width: "33%" }}>
+          <h3>Is tanking allowed?</h3>
+          <TextField id="outlined-basic" variant="filled" />
+        </FormControl>
+      </Box>
+    </div>
   );
 }
 
