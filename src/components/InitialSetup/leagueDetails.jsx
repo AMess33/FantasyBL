@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FormControl,
-  Select,
-  Box,
-  InputLabel,
-  MenuItem,
-  TextField,
-} from "@mui/material";
+import { FormControl, Select, Box, MenuItem, TextField } from "@mui/material";
 // return league name/ sport/ league/ league type
 function LeagueDetails(props) {
   // setValues(prevValues => ({...prevValues, thisValue: event.target.value }))
