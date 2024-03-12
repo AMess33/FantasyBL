@@ -10,25 +10,32 @@ import {
 
 function LeagueType(props) {
   return (
-    <Box>
-      <FormControl>
-        <InputLabel>What Type of Fantasy Contest</InputLabel>
-        <Select>
-          <MenuItem value={"Redraft"}>Seasonal Redraft</MenuItem>
-          <MenuItem value={"Dynasty"}>Dynasty</MenuItem>
-          <MenuItem value={"Keeper"}>Keeper</MenuItem>
-          <MenuItem value={"Playoff"}>Playoff Contest</MenuItem>
-        </Select>
-        <InputLabel>Special League Type?</InputLabel>
-        <Select>
-          <MenuItem value={"Devy"}>Devy</MenuItem>
-          <MenuItem value={"Empire"}>Empire</MenuItem>
-          <MenuItem value={"Contract"}>Contract</MenuItem>
-          <MenuItem value={"BestBall"}>BestBall</MenuItem>
-          <MenuItem value={"Guillotine"}>Guillotine</MenuItem>
-        </Select>
-      </FormControl>
-    </Box>
+    <div>
+      <Box>
+        <FormControl>
+          <h3>What Type of Fantasy Contest</h3>
+          <Select>
+            <MenuItem value={"Redraft"}>Seasonal Redraft</MenuItem>
+            <MenuItem value={"Dynasty"}>Dynasty</MenuItem>
+            <MenuItem value={"Keeper"}>Keeper</MenuItem>
+            <MenuItem value={"Playoff"}>Playoff Contest</MenuItem>
+            <MenuItem value={"Weekly"}>Weekly Contest</MenuItem>
+          </Select>
+        </FormControl>
+      </Box>
+      <Box>
+        <FormControl>
+          <h3>Special League Type</h3>
+          <Select>
+            <MenuItem value={"Devy"}>Devy</MenuItem>
+            <MenuItem value={"Empire"}>Empire</MenuItem>
+            <MenuItem value={"Contract"}>Contract</MenuItem>
+            <MenuItem value={"BestBall"}>BestBall</MenuItem>
+            <MenuItem value={"Guillotine"}>Guillotine</MenuItem>
+          </Select>
+        </FormControl>
+      </Box>
+    </div>
   );
 }
 
