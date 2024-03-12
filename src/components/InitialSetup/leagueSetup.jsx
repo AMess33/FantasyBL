@@ -11,8 +11,8 @@ import {
 // league style
 export function LeagueStyle(props) {
   return (
-    <Box>
-      <FormControl>
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl sx={{ width: "33%" }}>
         <h3>What type of league?</h3>
         <Select>
           <MenuItem value={"Head to Head Points"}>Head to Head Points</MenuItem>
@@ -31,8 +31,8 @@ export function LeagueStyle(props) {
 // Number of teams
 export function NumberOfTeams(props) {
   return (
-    <Box>
-      <FormControl>
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl sx={{ width: "33%" }}>
         <h3>How many teams in your league?</h3>
         <Select labelId="teams" id="teams" value={Number} label="teams">
           <MenuItem value={6}>6</MenuItem>
@@ -55,8 +55,8 @@ export function NumberOfTeams(props) {
 // Roster Size
 export function RosterSize(props) {
   return (
-    <Box>
-      <FormControl>
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl sx={{ width: "33%" }}>
         <h3>How many players per team?</h3>
         <Select labelId="teams" id="teams" value={Number} label="teams">
           <MenuItem value={16}>16</MenuItem>
@@ -85,10 +85,10 @@ export function RosterSize(props) {
 // Owner Fees
 export function OwnerFees(props) {
   return (
-    <Box>
-      <FormControl>
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl sx={{ width: "33%" }}>
         <h3>What is the annual owner fee?</h3>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <TextField id="outlined-basic" variant="outlined" />
       </FormControl>
     </Box>
   );
@@ -97,8 +97,8 @@ export function OwnerFees(props) {
 // Places Paid out
 export function PlacesPaidOut(props) {
   return (
-    <Box>
-      <FormControl>
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl sx={{ width: "33%" }}>
         <h3>How many places are paid out?</h3>
         <Select labelId="teams" id="teams" value={Number} label="teams">
           <MenuItem value={1}>1</MenuItem>
