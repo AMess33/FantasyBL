@@ -1,21 +1,14 @@
 import React from "react";
-import {
-  FormControl,
-  Select,
-  Box,
-  InputLabel,
-  MenuItem,
-  TextField,
-} from "@mui/material";
+import { FormControl, Box, InputLabel, TextField } from "@mui/material";
 
 function Scoring(props) {
   return (
     <Box>
       <FormControl>
-        <InputLabel>
+        <h5>
           Do you have any special scoring settings? If not, tell your league
           where to find the host sites posting of scoring settings
-        </InputLabel>
+        </h5>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </FormControl>
     </Box>
