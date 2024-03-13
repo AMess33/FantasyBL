@@ -1,12 +1,12 @@
 import React from "react";
-import { FormControl, Box, InputLabel, TextField } from "@mui/material";
+import { FormControl, Box, TextField } from "@mui/material";
 
 function OwnerExpectations(props) {
   return (
     <Box>
       <FormControl>
-        <InputLabel>Owner Expectations</InputLabel>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <h3>Owner Expectations</h3>
+        <TextField id="outlined-basic" variant="filled" />
       </FormControl>
     </Box>
   );

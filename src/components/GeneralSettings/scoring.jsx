@@ -1,5 +1,5 @@
 import React from "react";
-import { FormControl, Box, InputLabel, TextField } from "@mui/material";
+import { FormControl, Box, TextField } from "@mui/material";
 
 function Scoring(props) {
   return (
