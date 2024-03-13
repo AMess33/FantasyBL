@@ -1,5 +1,5 @@
 import React from "react";
-import { FormControl, Select, Box, MenuItem, TextField } from "@mui/material";
+import { FormControl, Select, Box, MenuItem } from "@mui/material";
 
 function HockeyLineup(props) {
   return (
