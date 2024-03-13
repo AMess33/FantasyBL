@@ -1,28 +1,19 @@
 import React from "react";
-import {
-  FormControl,
-  Select,
-  Box,
-  InputLabel,
-  MenuItem,
-  TextField,
-} from "@mui/material";
+import { FormControl, Select, Box, MenuItem, TextField } from "@mui/material";
 
 function Drafts(props) {
   return (
     <Box>
       <FormControl>
-        <InputLabel>What draft format do you use?</InputLabel>
+        <h3>What draft format do you use?</h3>
         <Select>
           <MenuItem value={"Auction"}>Auction</MenuItem>
           <MenuItem value={"Snake Draft"}>Snake Draft</MenuItem>
         </Select>
-        <InputLabel>How do you determine draft order?</InputLabel>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-        <InputLabel>
-          Multiple drafts a year? Explain those settings here
-        </InputLabel>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <h3>How do you determine draft order?</h3>
+        <TextField id="outlined-basic" variant="filled" />
+        <h3>Multiple drafts a year? Explain those settings here</h3>
+        <TextField id="outlined-basic" variant="filled" />
       </FormControl>
     </Box>
   );
