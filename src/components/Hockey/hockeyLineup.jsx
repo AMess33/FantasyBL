@@ -1,19 +1,12 @@
 import React from "react";
-import {
-  FormControl,
-  Select,
-  Box,
-  InputLabel,
-  MenuItem,
-  TextField,
-} from "@mui/material";
+import { FormControl, Select, Box, MenuItem, TextField } from "@mui/material";
 
 function HockeyLineup(props) {
   return (
     <Box>
       <FormControl>
         <h3>How many starters for each position?</h3>
-        <InputLabel>Goalies</InputLabel>
+        <h6>Goalies</h6>
         <Select labelId="G" id="GSpots" value={Number} label="Gs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -23,7 +16,7 @@ function HockeyLineup(props) {
           <MenuItem value={5}>5</MenuItem>
           <MenuItem value={6}>6</MenuItem>
         </Select>
-        <InputLabel>Skaters (LW/C/RW/D)</InputLabel>
+        <h6>Skaters (LW/C/RW/D)</h6>
         <Select labelId="SK" id="SKSpots" value={Number} label="SKs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -39,7 +32,7 @@ function HockeyLineup(props) {
           <MenuItem value={11}>11</MenuItem>
           <MenuItem value={12}>12</MenuItem>
         </Select>
-        <InputLabel>Left Wing</InputLabel>
+        <h6>Left Wing</h6>
         <Select labelId="LW" id="LWSpots" value={Number} label="LWs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -47,7 +40,7 @@ function HockeyLineup(props) {
           <MenuItem value={3}>3</MenuItem>
           <MenuItem value={4}>4</MenuItem>
         </Select>
-        <InputLabel>Center</InputLabel>
+        <h6>Center</h6>
         <Select labelId="C" id="CSpots" value={Number} label="Cs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -55,7 +48,7 @@ function HockeyLineup(props) {
           <MenuItem value={3}>3</MenuItem>
           <MenuItem value={4}>4</MenuItem>
         </Select>
-        <InputLabel>Right Wing</InputLabel>
+        <h6>Right Wing</h6>
         <Select labelId="RW" id="RWSpots" value={Number} label="RWs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -63,7 +56,7 @@ function HockeyLineup(props) {
           <MenuItem value={3}>3</MenuItem>
           <MenuItem value={4}>4</MenuItem>
         </Select>
-        <InputLabel>Defensemen</InputLabel>
+        <h6>Defensemen</h6>
         <Select labelId="D" id="DSpots" value={Number} label="Ds">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
