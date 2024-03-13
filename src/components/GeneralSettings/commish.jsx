@@ -6,7 +6,7 @@ function Commish(props) {
     <Box>
       <FormControl>
         <h3>Commisioner's best intrest clause?</h3>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <TextField id="outlined-basic" variant="filled" />
       </FormControl>
     </Box>
   );

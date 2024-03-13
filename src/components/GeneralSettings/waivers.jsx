@@ -16,7 +16,7 @@ function Waivers(props) {
           </MenuItem>
         </Select>
         <h3>Explain any special waiver settings</h3>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <TextField id="outlined-basic" variant="filled" />
       </FormControl>
     </Box>
   );
