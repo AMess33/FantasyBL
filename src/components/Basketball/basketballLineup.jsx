@@ -1,19 +1,12 @@
 import React from "react";
-import {
-  FormControl,
-  Select,
-  Box,
-  InputLabel,
-  MenuItem,
-  TextField,
-} from "@mui/material";
+import { FormControl, Select, Box, MenuItem } from "@mui/material";
 
 function BasketballLineup(props) {
   return (
     <Box>
       <FormControl>
         <h3>How many starters for each position?</h3>
-        <InputLabel>Point Gaurd</InputLabel>
+        <h6>Point Gaurd</h6>
         <Select labelId="PG" id="PGSpots" value={Number} label="PGs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -22,7 +15,7 @@ function BasketballLineup(props) {
           <MenuItem value={4}>4</MenuItem>
           <MenuItem value={5}>5</MenuItem>
         </Select>
-        <InputLabel>Shooting Gaurd</InputLabel>
+        <h6>Shooting Gaurd</h6>
         <Select labelId="SG" id="SGSpots" value={Number} label="SGs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -32,7 +25,7 @@ function BasketballLineup(props) {
           <MenuItem value={5}>5</MenuItem>
         </Select>
 
-        <InputLabel>Small Forward</InputLabel>
+        <h6>Small Forward</h6>
         <Select labelId="SF" id="SFSpots" value={Number} label="SFs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -42,7 +35,7 @@ function BasketballLineup(props) {
           <MenuItem value={5}>5</MenuItem>
         </Select>
 
-        <InputLabel>Power Forward</InputLabel>
+        <h6>Power Forward</h6>
         <Select labelId="PF" id="PFSpots" value={Number} label="PFs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -52,7 +45,7 @@ function BasketballLineup(props) {
           <MenuItem value={5}>5</MenuItem>
         </Select>
 
-        <InputLabel>Center</InputLabel>
+        <h6>Center</h6>
         <Select labelId="C" id="CSpots" value={Number} label="Cs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -62,7 +55,7 @@ function BasketballLineup(props) {
           <MenuItem value={5}>5</MenuItem>
         </Select>
 
-        <InputLabel>Guard (PG/SG)</InputLabel>
+        <h6>Guard (PG/SG)</h6>
         <Select labelId="Guard" id="GSpots" value={Number} label="Gs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -72,7 +65,7 @@ function BasketballLineup(props) {
           <MenuItem value={5}>5</MenuItem>
         </Select>
 
-        <InputLabel>Forward (SF/PF)</InputLabel>
+        <h6>Forward (SF/PF)</h6>
         <Select labelId="Forward" id="FSpots" value={Number} label="Fs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -82,7 +75,7 @@ function BasketballLineup(props) {
           <MenuItem value={5}>5</MenuItem>
         </Select>
 
-        <InputLabel>Utility Player (PG/SG/SF/PF/C)</InputLabel>
+        <h6>Utility Player (PG/SG/SF/PF/C)</h6>
         <Select labelId="UTIL" id="UTILSpots" value={Number} label="UTILs">
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
