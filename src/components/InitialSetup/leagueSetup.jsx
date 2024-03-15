@@ -7,7 +7,7 @@ export function LeagueStyle(props) {
     <Box sx={{ minWidth: 120 }}>
       <FormControl sx={{ width: "33%" }}>
         <h3>What type of league?</h3>
-        <Select>
+        <Select id="matchup" variant="filled">
           <MenuItem value={"Head to Head Points"}>Head to Head Points</MenuItem>
           <MenuItem value={"Head to Head Categories"}>
             Head to Head Categories
@@ -27,7 +27,13 @@ export function NumberOfTeams(props) {
     <Box sx={{ minWidth: 120 }}>
       <FormControl sx={{ width: "33%" }}>
         <h3>How many teams in your league?</h3>
-        <Select labelId="teams" id="teams" value={Number} label="teams">
+        <Select
+          labelId="teams"
+          id="teams"
+          variant="filled"
+          value={Number}
+          label="teams"
+        >
           <MenuItem value={6}>6</MenuItem>
           <MenuItem value={7}>7</MenuItem>
           <MenuItem value={8}>8</MenuItem>
@@ -51,7 +57,13 @@ export function RosterSize(props) {
     <Box sx={{ minWidth: 120 }}>
       <FormControl sx={{ width: "33%" }}>
         <h3>How many players per team?</h3>
-        <Select labelId="teams" id="teams" value={Number} label="teams">
+        <Select
+          labelId="teams"
+          id="roster"
+          variant="filled"
+          value={Number}
+          label="Roster Size"
+        >
           <MenuItem value={16}>16</MenuItem>
           <MenuItem value={17}>17</MenuItem>
           <MenuItem value={18}>18</MenuItem>
@@ -81,7 +93,7 @@ export function OwnerFees(props) {
     <Box sx={{ minWidth: 120 }}>
       <FormControl sx={{ width: "33%" }}>
         <h3>What is the annual owner fee?</h3>
-        <TextField id="outlined-basic" variant="outlined" />
+        <TextField id="outlined-basic" variant="filled" />
       </FormControl>
     </Box>
   );
@@ -93,7 +105,13 @@ export function PlacesPaidOut(props) {
     <Box sx={{ minWidth: 120 }}>
       <FormControl sx={{ width: "33%" }}>
         <h3>How many places are paid out?</h3>
-        <Select labelId="teams" id="teams" value={Number} label="teams">
+        <Select
+          labelId="places"
+          id="places"
+          variant="filled"
+          value={Number}
+          label="Places Paid"
+        >
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
