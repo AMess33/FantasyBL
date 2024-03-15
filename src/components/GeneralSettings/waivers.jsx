@@ -6,7 +6,7 @@ function Waivers(props) {
     <Box>
       <FormControl>
         <h3>Waiver Settings</h3>
-        <Select>
+        <Select id="waiver" variant="filled">
           <MenuItem value={"FCFS"}>First Come First Serve</MenuItem>
           <MenuItem value={"FAAB"}>
             Free Agent Aquisition Budget Waivers
@@ -16,7 +16,7 @@ function Waivers(props) {
           </MenuItem>
         </Select>
         <h3>Explain any special waiver settings</h3>
-        <TextField id="outlined-basic" variant="filled" />
+        <TextField id="specialWaiver" variant="filled" />
       </FormControl>
     </Box>
   );
