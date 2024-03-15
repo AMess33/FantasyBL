@@ -23,6 +23,7 @@ function LeagueDetails(props) {
           <Select
             id="sport"
             variant="filled"
+            label="Sport"
             value={props.value.sport}
             onChange={(event) => {
               props.setValue((prevValues) => ({
@@ -42,7 +43,12 @@ function LeagueDetails(props) {
       <Box>
         <FormControl sx={{ width: "33%" }}>
           <h3>What Website is your leauge using?</h3>
-          <Select id="hostSite" variant="filled" value={props.value.website}>
+          <Select
+            id="hostSite"
+            variant="filled"
+            label="Host Site"
+            value={props.value.website}
+          >
             <MenuItem value={"ESPN"}>ESPN</MenuItem>
             <MenuItem value={"Sleeper"}>Sleeper</MenuItem>
             <MenuItem value={"My Fantasy League"}>My Fantasy League</MenuItem>

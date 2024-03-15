@@ -7,7 +7,7 @@ function LeagueType(props) {
       <Box>
         <FormControl sx={{ width: "33%" }}>
           <h3>What Type of Fantasy Contest</h3>
-          <Select>
+          <Select id="leagueType" variant="filled">
             <MenuItem value={"Redraft"}>Seasonal Redraft</MenuItem>
             <MenuItem value={"Dynasty"}>Dynasty</MenuItem>
             <MenuItem value={"Keeper"}>Keeper</MenuItem>
@@ -19,7 +19,7 @@ function LeagueType(props) {
       <Box>
         <FormControl sx={{ width: "33%" }}>
           <h3>Special League Type</h3>
-          <Select>
+          <Select id="specialLeagueType" variant="filled">
             <MenuItem value={"Devy"}>Devy</MenuItem>
             <MenuItem value={"Empire"}>Empire</MenuItem>
             <MenuItem value={"Contract"}>Contract</MenuItem>
