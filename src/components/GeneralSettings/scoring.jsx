@@ -9,7 +9,7 @@ function Scoring(props) {
           Do you have any special scoring settings? If not, tell your league
           where to find the host sites posting of scoring settings
         </h5>
-        <TextField id="outlined-basic" variant="filled" />
+        <TextField id="specialScoring" variant="filled" />
       </FormControl>
     </Box>
   );
