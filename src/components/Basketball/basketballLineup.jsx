@@ -7,7 +7,13 @@ function BasketballLineup(props) {
       <FormControl>
         <h3>How many starters for each position?</h3>
         <h6>Point Gaurd</h6>
-        <Select labelId="PG" id="PGSpots" value={Number} label="PGs">
+        <Select
+          labelId="PG"
+          id="PGSpots"
+          variant="filled"
+          value={Number}
+          label="PGs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -16,7 +22,13 @@ function BasketballLineup(props) {
           <MenuItem value={5}>5</MenuItem>
         </Select>
         <h6>Shooting Gaurd</h6>
-        <Select labelId="SG" id="SGSpots" value={Number} label="SGs">
+        <Select
+          labelId="SG"
+          id="SGSpots"
+          variant="filled"
+          value={Number}
+          label="SGs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -26,7 +38,13 @@ function BasketballLineup(props) {
         </Select>
 
         <h6>Small Forward</h6>
-        <Select labelId="SF" id="SFSpots" value={Number} label="SFs">
+        <Select
+          labelId="SF"
+          id="SFSpots"
+          variant="filled"
+          value={Number}
+          label="SFs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -36,7 +54,13 @@ function BasketballLineup(props) {
         </Select>
 
         <h6>Power Forward</h6>
-        <Select labelId="PF" id="PFSpots" value={Number} label="PFs">
+        <Select
+          labelId="PF"
+          id="PFSpots"
+          variant="filled"
+          value={Number}
+          label="PFs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -46,7 +70,13 @@ function BasketballLineup(props) {
         </Select>
 
         <h6>Center</h6>
-        <Select labelId="C" id="CSpots" value={Number} label="Cs">
+        <Select
+          labelId="C"
+          id="CSpots"
+          variant="filled"
+          value={Number}
+          label="Cs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -56,7 +86,13 @@ function BasketballLineup(props) {
         </Select>
 
         <h6>Guard (PG/SG)</h6>
-        <Select labelId="Guard" id="GSpots" value={Number} label="Gs">
+        <Select
+          labelId="Guard"
+          id="GSpots"
+          variant="filled"
+          value={Number}
+          label="Gs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -66,7 +102,13 @@ function BasketballLineup(props) {
         </Select>
 
         <h6>Forward (SF/PF)</h6>
-        <Select labelId="Forward" id="FSpots" value={Number} label="Fs">
+        <Select
+          labelId="Forward"
+          id="FSpots"
+          variant="filled"
+          value={Number}
+          label="Fs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
@@ -76,7 +118,13 @@ function BasketballLineup(props) {
         </Select>
 
         <h6>Utility Player (PG/SG/SF/PF/C)</h6>
-        <Select labelId="UTIL" id="UTILSpots" value={Number} label="UTILs">
+        <Select
+          labelId="UTIL"
+          id="UTILSpots"
+          variant="filled"
+          value={Number}
+          label="UTILs"
+        >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
