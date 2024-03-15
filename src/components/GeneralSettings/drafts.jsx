@@ -6,14 +6,14 @@ function Drafts(props) {
     <Box>
       <FormControl>
         <h3>What draft format do you use?</h3>
-        <Select>
+        <Select id="draftFormat" variant="filled">
           <MenuItem value={"Auction"}>Auction</MenuItem>
           <MenuItem value={"Snake Draft"}>Snake Draft</MenuItem>
         </Select>
         <h3>How do you determine draft order?</h3>
-        <TextField id="outlined-basic" variant="filled" />
+        <TextField id="setOrder" variant="filled" />
         <h3>Multiple drafts a year? Explain those settings here</h3>
-        <TextField id="outlined-basic" variant="filled" />
+        <TextField id="multipleDrafts" variant="filled" />
       </FormControl>
     </Box>
   );
