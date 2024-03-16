@@ -6,7 +6,7 @@ function OwnerExpectations(props) {
     <Box>
       <FormControl>
         <h3>Owner Expectations</h3>
-        <TextField id="owner" variant="filled" />
+        <TextField id="owner" value={props.value.owner} variant="filled" />
       </FormControl>
     </Box>
   );
