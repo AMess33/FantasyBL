@@ -11,7 +11,7 @@ function BasketballLineup(props) {
           labelId="PG"
           id="PGSpots"
           variant="filled"
-          value={Number}
+          value={props.value.pointGuardSpots}
           label="PGs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -26,7 +26,7 @@ function BasketballLineup(props) {
           labelId="SG"
           id="SGSpots"
           variant="filled"
-          value={Number}
+          value={props.value.shootingGuardSpots}
           label="SGs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -42,7 +42,7 @@ function BasketballLineup(props) {
           labelId="SF"
           id="SFSpots"
           variant="filled"
-          value={Number}
+          value={props.value.smallForwardSpots}
           label="SFs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -58,7 +58,7 @@ function BasketballLineup(props) {
           labelId="PF"
           id="PFSpots"
           variant="filled"
-          value={Number}
+          value={props.value.powerForwardSpots}
           label="PFs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -74,7 +74,7 @@ function BasketballLineup(props) {
           labelId="C"
           id="CSpots"
           variant="filled"
-          value={Number}
+          value={props.value.centerSpots}
           label="Cs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -90,7 +90,7 @@ function BasketballLineup(props) {
           labelId="Guard"
           id="GSpots"
           variant="filled"
-          value={Number}
+          value={props.value.guardSpots}
           label="Gs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -106,7 +106,7 @@ function BasketballLineup(props) {
           labelId="Forward"
           id="FSpots"
           variant="filled"
-          value={Number}
+          value={props.value.forwardSpots}
           label="Fs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -122,7 +122,7 @@ function BasketballLineup(props) {
           labelId="UTIL"
           id="UTILSpots"
           variant="filled"
-          value={Number}
+          value={props.value.UTILSpots}
           label="UTILs"
         >
           <MenuItem value={0}>0</MenuItem>
