@@ -6,7 +6,11 @@ function Commish(props) {
     <Box>
       <FormControl>
         <h3>Commisioner's best intrest clause?</h3>
-        <TextField id="outlined-basic" variant="filled" />
+        <TextField
+          id="commishClause"
+          value={props.value.commishClause}
+          variant="filled"
+        />
       </FormControl>
     </Box>
   );
