@@ -11,7 +11,7 @@ function HockeyLineup(props) {
           labelId="G"
           id="GSpots"
           variant="filled"
-          value={Number}
+          value={props.value.gSpots}
           label="Gs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -27,7 +27,7 @@ function HockeyLineup(props) {
           labelId="SK"
           id="SKSpots"
           variant="filled"
-          value={Number}
+          value={props.value.skSpots}
           label="SKs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -49,7 +49,7 @@ function HockeyLineup(props) {
           labelId="LW"
           id="LWSpots"
           variant="filled"
-          value={Number}
+          value={props.value.lwSpots}
           label="LWs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -63,7 +63,7 @@ function HockeyLineup(props) {
           labelId="C"
           id="CSpots"
           variant="filled"
-          value={Number}
+          value={props.value.cSpots}
           label="Cs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -77,7 +77,7 @@ function HockeyLineup(props) {
           labelId="RW"
           id="RWSpots"
           variant="filled"
-          value={Number}
+          value={props.value.rwSpots}
           label="RWs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -91,7 +91,7 @@ function HockeyLineup(props) {
           labelId="D"
           id="DSpots"
           variant="filled"
-          value={Number}
+          value={props.value.dSpots}
           label="Ds"
         >
           <MenuItem value={0}>0</MenuItem>
