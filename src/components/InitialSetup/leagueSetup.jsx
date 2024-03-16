@@ -7,7 +7,7 @@ export function LeagueStyle(props) {
     <Box sx={{ minWidth: 120 }}>
       <FormControl sx={{ width: "33%" }}>
         <h3>What type of league?</h3>
-        <Select id="matchup" variant="filled">
+        <Select id="matchup" value={props.value.matchup} variant="filled">
           <MenuItem value={"Head to Head Points"}>Head to Head Points</MenuItem>
           <MenuItem value={"Head to Head Categories"}>
             Head to Head Categories
@@ -31,7 +31,7 @@ export function NumberOfTeams(props) {
           labelId="teams"
           id="teams"
           variant="filled"
-          value={Number}
+          value={props.value.teams}
           label="teams"
         >
           <MenuItem value={6}>6</MenuItem>
@@ -61,7 +61,7 @@ export function RosterSize(props) {
           labelId="teams"
           id="roster"
           variant="filled"
-          value={Number}
+          value={props.value.roster}
           label="Roster Size"
         >
           <MenuItem value={16}>16</MenuItem>
@@ -93,7 +93,11 @@ export function OwnerFees(props) {
     <Box sx={{ minWidth: 120 }}>
       <FormControl sx={{ width: "33%" }}>
         <h3>What is the annual owner fee?</h3>
-        <TextField id="outlined-basic" variant="filled" />
+        <TextField
+          id="outlined-basic"
+          value={props.value.ownerFees}
+          variant="filled"
+        />
       </FormControl>
     </Box>
   );
@@ -109,7 +113,7 @@ export function PlacesPaidOut(props) {
           labelId="places"
           id="places"
           variant="filled"
-          value={Number}
+          value={props.value.places}
           label="Places Paid"
         >
           <MenuItem value={1}>1</MenuItem>
