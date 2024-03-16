@@ -11,7 +11,7 @@ function FootballLineup(props) {
           labelId="QB"
           id="QBSpots"
           variant="filled"
-          value={Number}
+          value={props.value.quarterBackSpots}
           label="QBs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -24,7 +24,7 @@ function FootballLineup(props) {
           labelId="RB"
           id="RBSpots"
           variant="filled"
-          value={Number}
+          value={props.value.runningBackSpots}
           label="RBs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -39,7 +39,7 @@ function FootballLineup(props) {
           labelId="WR"
           id="WRSpots"
           variant="filled"
-          value={Number}
+          value={props.value.wideReceiverSpots}
           label="WRs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -55,7 +55,7 @@ function FootballLineup(props) {
           labelId="TE"
           id="TESpots"
           variant="filled"
-          value={Number}
+          value={props.value.tightEndSpots}
           label="TEs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -69,7 +69,7 @@ function FootballLineup(props) {
           labelId="SFX"
           id="SFXSpots"
           variant="filled"
-          value={Number}
+          value={props.value.superFlexSpots}
           label="SFXs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -82,7 +82,7 @@ function FootballLineup(props) {
           labelId="Flex"
           id="FlexSpots"
           variant="filled"
-          value={Number}
+          value={props.value.flexSpots}
           label="Flexs"
         >
           <MenuItem value={0}>0</MenuItem>
