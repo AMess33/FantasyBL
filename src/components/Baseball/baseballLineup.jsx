@@ -10,7 +10,7 @@ function BaseballLineup(props) {
           labelId="1stB"
           id="1BSpots"
           variant="filled"
-          value={Number}
+          value={props.value.firstBaseSpots}
           label="1Bs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -24,7 +24,7 @@ function BaseballLineup(props) {
           labelId="2ndB"
           id="2BSpots"
           variant="filled"
-          value={Number}
+          value={props.value.secondBaseSpots}
           label="2Bs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -38,7 +38,7 @@ function BaseballLineup(props) {
           labelId="SS"
           id="SSSpots"
           variant="filled"
-          value={Number}
+          value={props.value.shortStopSpots}
           label="SSs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -52,7 +52,7 @@ function BaseballLineup(props) {
           labelId="3rdB"
           id="3BSpots"
           variant="filled"
-          value={Number}
+          value={props.value.thirdBaseSpots}
           label="3Bs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -66,7 +66,7 @@ function BaseballLineup(props) {
           labelId="RF"
           id="RFSpots"
           variant="filled"
-          value={Number}
+          value={props.value.rightFieldSpots}
           label="RFs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -80,7 +80,7 @@ function BaseballLineup(props) {
           labelId="CF"
           id="CFSpots"
           variant="filled"
-          value={Number}
+          value={props.value.centerFieldSpots}
           label="CFs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -94,7 +94,7 @@ function BaseballLineup(props) {
           labelId="LF"
           id="LFSpots"
           variant="filled"
-          value={Number}
+          value={props.value.leftFieldSpots}
           label="LFs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -108,7 +108,7 @@ function BaseballLineup(props) {
           labelId="CAT"
           id="CATSpots"
           variant="filled"
-          value={Number}
+          value={props.value.catcherSpots}
           label="CATs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -122,7 +122,7 @@ function BaseballLineup(props) {
           labelId="SP"
           id="SPSpots"
           variant="filled"
-          value={Number}
+          value={props.value.startingPitcherSpots}
           label="SPs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -136,7 +136,7 @@ function BaseballLineup(props) {
           labelId="RP"
           id="RPSpots"
           variant="filled"
-          value={Number}
+          value={props.value.relieverPitcherSpots}
           label="RPs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -150,7 +150,7 @@ function BaseballLineup(props) {
           labelId="CL"
           id="CLSpots"
           variant="filled"
-          value={Number}
+          value={props.value.closerSpots}
           label="CLs"
         >
           <MenuItem value={0}>0</MenuItem>
@@ -161,11 +161,11 @@ function BaseballLineup(props) {
         </Select>
         <h6>Infielder (1B, 2B, 3B, SS)</h6>
         <Select
-          labelId="UTIL"
-          id="UTILSpots"
+          labelId="INF"
+          id="INFSpots"
           variant="filled"
-          value={Number}
-          label="UTILs"
+          value={props.value.infieldSpots}
+          label="INFs"
         >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -175,11 +175,11 @@ function BaseballLineup(props) {
         </Select>
         <h6>Outfielder (LF/RF/CF)</h6>
         <Select
-          labelId="UTIL"
-          id="UTILSpots"
+          labelId="OUT"
+          id="OFSpots"
           variant="filled"
-          value={Number}
-          label="UTILs"
+          value={props.value.outfieldSpots}
+          label="OFs"
         >
           <MenuItem value={0}>0</MenuItem>
           <MenuItem value={1}>1</MenuItem>
@@ -189,10 +189,10 @@ function BaseballLineup(props) {
         </Select>
         <h6>Utility Player (C/1B/2B/3B/SS/LF/CF/RF)</h6>
         <Select
-          labelId="UTILBase"
-          id="UBASESpots"
+          labelId="Util"
+          id="UtilSpots"
           variant="filled"
-          value={Number}
+          value={props.value.utilSpots}
           label="UTBs"
         >
           <MenuItem value={0}>0</MenuItem>
