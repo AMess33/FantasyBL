@@ -17,6 +17,7 @@ import Scoring from "./components/GeneralSettings/scoring";
 import Waivers from "./components/GeneralSettings/standings";
 import Standings from "./components/GeneralSettings/standings";
 import Lineup from "./components/GeneralSettings/lineup";
+import CreateByLaws from "./components/submit";
 function App() {
   const [value, setValue] = React.useState({});
   console.log(value);
@@ -44,6 +45,7 @@ function App() {
         <Waivers value={value} setValue={setValue} />
         <Commish value={value} setValue={setValue} />
         <Owner value={value} setValue={setValue} />
+        <CreateByLaws />
       </div>
     </div>
   );
