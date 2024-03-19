@@ -7,10 +7,11 @@ import HockeyLineup from "../Hockey/hockeyLineup";
 function Lineup(props) {
   const sport = props.value.sport;
 
-  if (sport === "baseball") return <BaseballLineup />;
-  if (sport === "basketball") return <BasketballLineup />;
-  if (sport === "football") return <FootballLineup />;
-  if (sport === "hockey") return <HockeyLineup />;
+  if (sport === "MLB") return <BaseballLineup />;
+  if (sport === "NBA") return <BasketballLineup />;
+  if (sport === "NFL") return <FootballLineup />;
+  if (sport === "NCAA Football") return <FootballLineup />;
+  if (sport === "NHL") return <HockeyLineup />;
   // if props.value.sport = baseball return baseballLineup
 }
 
