@@ -8,7 +8,9 @@ import { Stack, Button } from "@mui/material";
 function CreateByLaws(props) {
   return (
     <Stack>
-      <Button variant="contained">Create Bylaws with Google Docs</Button>
+      <Button variant="contained" onClick={console.log(props)}>
+        Create Bylaws with Google Docs
+      </Button>
     </Stack>
   );
 }
