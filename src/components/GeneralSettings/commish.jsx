@@ -3,10 +3,9 @@ import { TextField } from "@mui/material";
 
 function Commish(props) {
   return (
-    <div style={{ width: "65%", margin: "auto" }}>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h3>Commisioner's best intrest clause?</h3>
       <TextField
-        sx={{ height: 20 }}
         id="commishClause"
         value={props.value.commishClause}
         onChange={(event) => {

@@ -3,7 +3,7 @@ import { Select, MenuItem, TextField } from "@mui/material";
 
 function Trades(props) {
   return (
-    <div>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h3>What is able to be traded in your league?</h3>
       <TextField
         id="tradeAsset"
@@ -20,7 +20,6 @@ function Trades(props) {
       <h3>Does your league allow trade vetos?</h3>
       <Select
         id="veto"
-        sx={{ height: 20 }}
         value={props.value.veto}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -37,7 +36,6 @@ function Trades(props) {
       <h3>Trade Colusion Settings</h3>
       <TextField
         id="colusion"
-        sx={{ height: 20 }}
         value={props.value.colusion}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -51,7 +49,6 @@ function Trades(props) {
       <h3>What do you do if Colusion is suspected?</h3>
       <TextField
         id="handleColusion"
-        sx={{ height: 20 }}
         value={props.value.handleColusion}
         onChange={(event) => {
           props.setValue((prevValues) => ({

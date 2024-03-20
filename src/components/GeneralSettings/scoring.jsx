@@ -3,14 +3,13 @@ import { TextField } from "@mui/material";
 
 function Scoring(props) {
   return (
-    <div style={{ width: "65%", margin: "auto" }}>
-      <h5>
+    <div style={{ width: "45%", margin: "auto" }}>
+      <h3>
         Do you have any special scoring settings? If not, tell your league where
         to find the host sites posting of scoring settings
-      </h5>
+      </h3>
       <TextField
         id="specialScoring"
-        sx={{ height: 20 }}
         value={props.value.specialScoring}
         onChange={(event) => {
           props.setValue((prevValues) => ({
