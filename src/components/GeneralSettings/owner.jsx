@@ -1,14 +1,23 @@
 import React from "react";
-import { FormControl, Box, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 
 function OwnerExpectations(props) {
   return (
-    <Box>
-      <FormControl>
-        <h3>Owner Expectations</h3>
-        <TextField id="owner" value={props.value.owner} variant="filled" />
-      </FormControl>
-    </Box>
+    <div style={{ width: "65%", margin: "auto" }}>
+      <h3>Owner Expectations</h3>
+      <TextField
+        id="owner"
+        value={props.value.owner}
+        onChange={(event) => {
+          props.setValue((prevValues) => ({
+            ...prevValues,
+            owner: event.target.value,
+          }));
+        }}
+        variant="filled"
+        fullWidth
+      />
+    </div>
   );
 }
 
