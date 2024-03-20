@@ -24,6 +24,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>2nd Base</h4>
       <Select
@@ -45,6 +47,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Short Stop</h4>
       <Select
@@ -66,6 +70,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>3rd Base</h4>
       <Select
@@ -87,6 +93,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Right Field</h4>
       <Select
@@ -108,6 +116,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Center Field</h4>
       <Select
@@ -129,6 +139,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Left Field</h4>
       <Select
@@ -150,6 +162,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Catcher</h4>
       <Select
@@ -171,6 +185,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Starting Pitcher</h4>
       <Select
@@ -192,6 +208,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Relief Pitcher</h4>
       <Select
@@ -213,6 +231,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Closer</h4>
       <Select
@@ -234,6 +254,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Infielder (1B, 2B, 3B, SS)</h4>
       <Select
@@ -255,6 +277,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Outfielder (LF/RF/CF)</h4>
       <Select
@@ -276,6 +300,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Utility Player (C/1B/2B/3B/SS/LF/CF/RF)</h4>
       <Select
@@ -297,6 +323,8 @@ function BaseballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
     </div>
   );
