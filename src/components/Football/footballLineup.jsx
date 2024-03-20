@@ -24,6 +24,7 @@ function FootballLineup(props) {
         <MenuItem value={1}>1</MenuItem>
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
+        <MenuItem value={4}>4</MenuItem>
       </Select>
       <h4>Running Back</h4>
       <Select
@@ -45,6 +46,7 @@ function FootballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
+        <MenuItem value={5}>5</MenuItem>
       </Select>
 
       <h4>Wide Reciever</h4>
@@ -68,6 +70,7 @@ function FootballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
 
       <h4>Tight End</h4>
@@ -89,6 +92,7 @@ function FootballLineup(props) {
         <MenuItem value={1}>1</MenuItem>
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
+        <MenuItem value={4}>4</MenuItem>
       </Select>
 
       <h4>SuperFlex (QB/RB/WR/TE)</h4>
@@ -109,6 +113,7 @@ function FootballLineup(props) {
         <MenuItem value={0}>0</MenuItem>
         <MenuItem value={1}>1</MenuItem>
         <MenuItem value={2}>2</MenuItem>
+        <MenuItem value={3}>3</MenuItem>
       </Select>
 
       <h4>Flex (RB/WR/TE)</h4>
@@ -132,6 +137,13 @@ function FootballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
+        <MenuItem value={7}>7</MenuItem>
+        <MenuItem value={8}>8</MenuItem>
+        <MenuItem value={9}>9</MenuItem>
+        <MenuItem value={10}>10</MenuItem>
+        <MenuItem value={11}>11</MenuItem>
+        <MenuItem value={12}>12</MenuItem>
       </Select>
     </div>
   );
