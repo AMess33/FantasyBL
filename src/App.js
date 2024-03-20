@@ -45,7 +45,7 @@ function App() {
         <Waivers value={value} setValue={setValue} />
         <Commish value={value} setValue={setValue} />
         <Owner value={value} setValue={setValue} />
-        <CreateByLaws />
+        <CreateByLaws value={value} setValue={setValue} />
       </div>
     </div>
   );
