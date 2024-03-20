@@ -1,13 +1,11 @@
 import React from "react";
-import { FormControl, Select, Box, MenuItem, TextField } from "@mui/material";
+import { Select, MenuItem, TextField } from "@mui/material";
 // return league name/ sport/ league/ league type
 function LeagueDetails(props) {
   // setValues(prevValues => ({...prevValues, thisValue: event.target.value }))
   // }
   return (
     <div style={{ width: "45%", margin: "auto" }}>
-      {/* <Box sx={{ minWidth: 120 }}>
-        <FormControl sx={{ width: "33%" }}> */}
       <h3>What is your League Name?</h3>
       <TextField
         id="leagueName"
@@ -16,10 +14,7 @@ function LeagueDetails(props) {
         variant="filled"
         fullWidth
       />
-      {/* </FormControl> */}
-      {/* </Box>
-      <Box sx={{ minWidth: 120 }}>
-        <FormControl sx={{ width: "33%" }}> */}
+
       <h3>Select a Sport</h3>
       <Select
         id="sport"
@@ -40,10 +35,7 @@ function LeagueDetails(props) {
         <MenuItem value={"MLB"}>MLB</MenuItem>
         <MenuItem value={"NCAA Football"}>NCAA Football</MenuItem>
       </Select>
-      {/* </FormControl>
-      </Box>
-      <Box>
-        <FormControl sx={{ width: "33%" }}> */}
+
       <h3>What Website is your leauge using?</h3>
       <Select
         id="hostSite"
@@ -64,8 +56,6 @@ function LeagueDetails(props) {
         <MenuItem value={"FFPC"}>FFPC</MenuItem>
         <MenuItem value={"Other"}>Other</MenuItem>
       </Select>
-      {/* </FormControl>
-      </Box> */}
     </div>
   );
 }
