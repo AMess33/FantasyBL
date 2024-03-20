@@ -7,6 +7,7 @@ function Trades(props) {
       <h3>What is able to be traded in your league?</h3>
       <TextField
         id="tradeAsset"
+        label="Tradeable Assets"
         value={props.value.tradeAsset}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -33,9 +34,10 @@ function Trades(props) {
         <MenuItem value={"NoVeto"}>No Trade Vetos</MenuItem>
         <MenuItem value={"Yes"}>Allow Trade Vetos</MenuItem>
       </Select>
-      <h3>Trade Colusion Settings</h3>
+      <h3>Trade Colusion Clause</h3>
       <TextField
         id="colusion"
+        label="Colusion"
         value={props.value.colusion}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -46,19 +48,6 @@ function Trades(props) {
         variant="filled"
         fullWidth
       ></TextField>
-      <h3>What do you do if Colusion is suspected?</h3>
-      <TextField
-        id="handleColusion"
-        value={props.value.handleColusion}
-        onChange={(event) => {
-          props.setValue((prevValues) => ({
-            ...prevValues,
-            handleColusion: event.target.value,
-          }));
-        }}
-        variant="filled"
-        fullWidth
-      />
     </div>
   );
 }

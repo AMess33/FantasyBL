@@ -7,6 +7,7 @@ function OwnerExpectations(props) {
       <h3>Owner Expectations</h3>
       <TextField
         id="owner"
+        label="Owner Expectations"
         value={props.value.owner}
         onChange={(event) => {
           props.setValue((prevValues) => ({

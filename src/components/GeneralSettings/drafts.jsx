@@ -23,6 +23,7 @@ function Drafts(props) {
       <h3>How do you determine draft order?</h3>
       <TextField
         id="setOrder"
+        label="Set Draft Order"
         value={props.value.setOrder}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -36,6 +37,7 @@ function Drafts(props) {
       <h3>Multiple drafts a year? Explain those settings here</h3>
       <TextField
         id="multipleDrafts"
+        label="Multiple Drafts"
         value={props.value.multipleDrafts}
         onChange={(event) => {
           props.setValue((prevValues) => ({

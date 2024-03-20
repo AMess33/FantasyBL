@@ -113,6 +113,7 @@ export function OwnerFees(props) {
       <h3>What is the annual owner fee?</h3>
       <TextField
         id="outlined-basic"
+        label="Owner Fees"
         value={props.value.ownerFees}
         onChange={(event) => {
           props.setValue((prevValues) => ({

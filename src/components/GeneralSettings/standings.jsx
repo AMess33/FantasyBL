@@ -7,6 +7,7 @@ function Standings(props) {
       <h3>How are Standings determined?</h3>
       <TextField
         id="standings"
+        label="Standings"
         value={props.value.standings}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -21,6 +22,7 @@ function Standings(props) {
       <h3>Is tanking allowed?</h3>
       <TextField
         id="tanking"
+        label="Tanking"
         value={props.value.tanking}
         onChange={(event) =>
           props.setValue((prevValues) => ({

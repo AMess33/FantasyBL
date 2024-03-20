@@ -7,6 +7,7 @@ function Commish(props) {
       <h3>Commisioner's best intrest clause?</h3>
       <TextField
         id="commishClause"
+        label="Commissioner's Clause"
         value={props.value.commishClause}
         onChange={(event) => {
           props.setValue((prevValues) => ({

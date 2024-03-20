@@ -10,6 +10,7 @@ function Scoring(props) {
       </h3>
       <TextField
         id="specialScoring"
+        label="Special Scoring"
         value={props.value.specialScoring}
         onChange={(event) => {
           props.setValue((prevValues) => ({
