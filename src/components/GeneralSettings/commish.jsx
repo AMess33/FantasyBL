@@ -16,6 +16,7 @@ function Commish(props) {
           }));
         }}
         variant="filled"
+        fullWidth
       />
     </div>
   );
