@@ -13,6 +13,12 @@ function LeagueDetails(props) {
         label="League Name"
         variant="filled"
         fullWidth
+        onChange={(event) => {
+          props.setValue((prevValues) => ({
+            ...prevValues,
+            leagueName: event.target.value,
+          }));
+        }}
       />
 
       <h3>Select a Sport</h3>
@@ -43,6 +49,12 @@ function LeagueDetails(props) {
         label="Host Site"
         fullWidth
         value={props.value.website}
+        onChange={(event) => {
+          props.setValue((prevValues) => ({
+            ...prevValues,
+            website: event.target.value,
+          }));
+        }}
       >
         <MenuItem value={"ESPN"}>ESPN</MenuItem>
         <MenuItem value={"Sleeper"}>Sleeper</MenuItem>
