@@ -16,6 +16,7 @@ export function LeagueStyle(props) {
           }));
         }}
         variant="filled"
+        fullWidth
       >
         <MenuItem value={"Head to Head Points"}>Head to Head Points</MenuItem>
         <MenuItem value={"Head to Head Categories"}>
@@ -32,7 +33,7 @@ export function LeagueStyle(props) {
 // Number of teams
 export function NumberOfTeams(props) {
   return (
-    <div>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h3>How many teams in your league?</h3>
       <Select
         labelId="teams"
@@ -46,6 +47,7 @@ export function NumberOfTeams(props) {
           }));
         }}
         label="teams"
+        fullWidth
       >
         <MenuItem value={6}>6</MenuItem>
         <MenuItem value={7}>7</MenuItem>
@@ -80,6 +82,7 @@ export function RosterSize(props) {
           }));
         }}
         label="Roster Size"
+        fullWidth
       >
         <MenuItem value={16}>16</MenuItem>
         <MenuItem value={17}>17</MenuItem>
@@ -118,6 +121,7 @@ export function OwnerFees(props) {
           }));
         }}
         variant="filled"
+        fullWidth
       />
     </div>
   );
@@ -126,7 +130,7 @@ export function OwnerFees(props) {
 // Places Paid out
 export function PlacesPaidOut(props) {
   return (
-    <div>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h3>How many places are paid out?</h3>
       <Select
         labelId="places"
@@ -140,6 +144,7 @@ export function PlacesPaidOut(props) {
           }));
         }}
         label="Places Paid"
+        fullWidth
       >
         <MenuItem value={1}>1</MenuItem>
         <MenuItem value={2}>2</MenuItem>

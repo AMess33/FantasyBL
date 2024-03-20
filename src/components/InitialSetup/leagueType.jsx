@@ -8,6 +8,7 @@ function LeagueType(props) {
       <Select
         id="leagueType"
         variant="filled"
+        fullWidth
         value={props.value.LeagueType}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -33,6 +34,7 @@ function LeagueType(props) {
           }));
         }}
         variant="filled"
+        fullWidth
       >
         <MenuItem value={"Devy"}>Devy</MenuItem>
         <MenuItem value={"Empire"}>Empire</MenuItem>

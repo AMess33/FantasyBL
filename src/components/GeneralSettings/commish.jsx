@@ -1,18 +1,23 @@
 import React from "react";
-import { FormControl, TextField, Box } from "@mui/material";
+import { TextField } from "@mui/material";
 
 function Commish(props) {
   return (
-    <Box>
-      <FormControl>
-        <h3>Commisioner's best intrest clause?</h3>
-        <TextField
-          id="commishClause"
-          value={props.value.commishClause}
-          variant="filled"
-        />
-      </FormControl>
-    </Box>
+    <div style={{ width: "65%", margin: "auto" }}>
+      <h3>Commisioner's best intrest clause?</h3>
+      <TextField
+        sx={{ height: 20 }}
+        id="commishClause"
+        value={props.value.commishClause}
+        onChange={(event) => {
+          props.setValue((prevValues) => ({
+            ...prevValues,
+            commishClause: event.target.value,
+          }));
+        }}
+        variant="filled"
+      />
+    </div>
   );
 }
 
