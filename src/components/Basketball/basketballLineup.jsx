@@ -23,6 +23,7 @@ function BasketballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
       <h4>Shooting Gaurd</h4>
       <Select
@@ -42,6 +43,7 @@ function BasketballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
 
       <h4>Small Forward</h4>
@@ -62,6 +64,7 @@ function BasketballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
 
       <h4>Power Forward</h4>
@@ -82,6 +85,7 @@ function BasketballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
 
       <h4>Center</h4>
@@ -102,6 +106,7 @@ function BasketballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
 
       <h4>Guard (PG/SG)</h4>
@@ -122,6 +127,7 @@ function BasketballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
 
       <h4>Forward (SF/PF)</h4>
@@ -142,6 +148,7 @@ function BasketballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
+        <MenuItem value={6}>6</MenuItem>
       </Select>
 
       <h4>Utility Player (PG/SG/SF/PF/C)</h4>
