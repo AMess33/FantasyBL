@@ -1,21 +1,27 @@
 import React from "react";
-import { FormControl, Box, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 
 function Scoring(props) {
   return (
-    <Box>
-      <FormControl>
-        <h5>
-          Do you have any special scoring settings? If not, tell your league
-          where to find the host sites posting of scoring settings
-        </h5>
-        <TextField
-          id="specialScoring"
-          value={props.value.specialScoring}
-          variant="filled"
-        />
-      </FormControl>
-    </Box>
+    <div style={{ width: "65%", margin: "auto" }}>
+      <h5>
+        Do you have any special scoring settings? If not, tell your league where
+        to find the host sites posting of scoring settings
+      </h5>
+      <TextField
+        id="specialScoring"
+        sx={{ height: 20 }}
+        value={props.value.specialScoring}
+        onChange={(event) => {
+          props.setValue((prevValues) => ({
+            ...prevValues,
+            specialScoring: event.target.value,
+          }));
+        }}
+        variant="filled"
+        fullWidth
+      />
+    </div>
   );
 }
 
