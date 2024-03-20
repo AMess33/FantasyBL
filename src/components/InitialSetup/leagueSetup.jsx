@@ -1,5 +1,5 @@
 import React from "react";
-import { FormControl, Select, Box, MenuItem, TextField } from "@mui/material";
+import { Select, MenuItem, TextField } from "@mui/material";
 
 // league style
 export function LeagueStyle(props) {
