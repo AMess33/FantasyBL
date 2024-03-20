@@ -8,7 +8,7 @@ import { Stack, Button } from "@mui/material";
 function CreateByLaws(props) {
   return (
     <Stack>
-      <Button variant="contained" onClick={console.log(props)}>
+      <Button variant="contained" onClick={() => console.log(props.value)}>
         Create Bylaws with Google Docs
       </Button>
     </Stack>
