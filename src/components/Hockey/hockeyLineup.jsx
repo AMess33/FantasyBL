@@ -5,7 +5,7 @@ function HockeyLineup(props) {
   return (
     <div style={{ width: "45%", margin: "auto" }}>
       <h3>How many starters for each position?</h3>
-      <h6>Goalies</h6>
+      <h4>Goalies</h4>
       <Select
         labelId="G"
         id="GSpots"
@@ -25,7 +25,7 @@ function HockeyLineup(props) {
         <MenuItem value={5}>5</MenuItem>
         <MenuItem value={6}>6</MenuItem>
       </Select>
-      <h6>Skaters (LW/C/RW/D)</h6>
+      <h4>Skaters (LW/C/RW/D)</h4>
       <Select
         labelId="SK"
         id="SKSpots"
@@ -51,7 +51,7 @@ function HockeyLineup(props) {
         <MenuItem value={11}>11</MenuItem>
         <MenuItem value={12}>12</MenuItem>
       </Select>
-      <h6>Left Wing</h6>
+      <h4>Left Wing</h4>
       <Select
         labelId="LW"
         id="LWSpots"
@@ -69,7 +69,7 @@ function HockeyLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
       </Select>
-      <h6>Center</h6>
+      <h4>Center</h4>
       <Select
         labelId="C"
         id="CSpots"
@@ -87,7 +87,7 @@ function HockeyLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
       </Select>
-      <h6>Right Wing</h6>
+      <h4>Right Wing</h4>
       <Select
         labelId="RW"
         id="RWSpots"
@@ -105,7 +105,7 @@ function HockeyLineup(props) {
         <MenuItem value={3}>3</MenuItem>
         <MenuItem value={4}>4</MenuItem>
       </Select>
-      <h6>Defensemen</h6>
+      <h4>Defensemen</h4>
       <Select
         labelId="D"
         id="DSpots"

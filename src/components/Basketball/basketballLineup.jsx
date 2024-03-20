@@ -5,7 +5,7 @@ function BasketballLineup(props) {
   return (
     <div style={{ width: "45%", margin: "auto" }}>
       <h3>How many starters for each position?</h3>
-      <h6>Point Gaurd</h6>
+      <h4>Point Gaurd</h4>
       <Select
         labelId="PG"
         id="PGSpots"
@@ -24,7 +24,7 @@ function BasketballLineup(props) {
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={5}>5</MenuItem>
       </Select>
-      <h6>Shooting Gaurd</h6>
+      <h4>Shooting Gaurd</h4>
       <Select
         labelId="SG"
         id="SGSpots"
@@ -44,7 +44,7 @@ function BasketballLineup(props) {
         <MenuItem value={5}>5</MenuItem>
       </Select>
 
-      <h6>Small Forward</h6>
+      <h4>Small Forward</h4>
       <Select
         labelId="SF"
         id="SFSpots"
@@ -64,7 +64,7 @@ function BasketballLineup(props) {
         <MenuItem value={5}>5</MenuItem>
       </Select>
 
-      <h6>Power Forward</h6>
+      <h4>Power Forward</h4>
       <Select
         labelId="PF"
         id="PFSpots"
@@ -84,7 +84,7 @@ function BasketballLineup(props) {
         <MenuItem value={5}>5</MenuItem>
       </Select>
 
-      <h6>Center</h6>
+      <h4>Center</h4>
       <Select
         labelId="C"
         id="CSpots"
@@ -104,7 +104,7 @@ function BasketballLineup(props) {
         <MenuItem value={5}>5</MenuItem>
       </Select>
 
-      <h6>Guard (PG/SG)</h6>
+      <h4>Guard (PG/SG)</h4>
       <Select
         labelId="Guard"
         id="GSpots"
@@ -124,7 +124,7 @@ function BasketballLineup(props) {
         <MenuItem value={5}>5</MenuItem>
       </Select>
 
-      <h6>Forward (SF/PF)</h6>
+      <h4>Forward (SF/PF)</h4>
       <Select
         labelId="Forward"
         id="FSpots"
@@ -144,7 +144,7 @@ function BasketballLineup(props) {
         <MenuItem value={5}>5</MenuItem>
       </Select>
 
-      <h6>Utility Player (PG/SG/SF/PF/C)</h6>
+      <h4>Utility Player (PG/SG/SF/PF/C)</h4>
       <Select
         labelId="UTIL"
         id="UTILSpots"

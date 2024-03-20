@@ -5,7 +5,7 @@ function FootballLineup(props) {
   return (
     <div style={{ width: "45%", margin: "auto" }}>
       <h3>How many starters for each position?</h3>
-      <h6>Quarter Back</h6>
+      <h4>Quarter Back</h4>
       <Select
         labelId="QB"
         id="QBSpots"
@@ -25,7 +25,7 @@ function FootballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
         <MenuItem value={3}>3</MenuItem>
       </Select>
-      <h6>Running Back</h6>
+      <h4>Running Back</h4>
       <Select
         labelId="RB"
         id="RBSpots"
@@ -47,7 +47,7 @@ function FootballLineup(props) {
         <MenuItem value={4}>4</MenuItem>
       </Select>
 
-      <h6>Wide Reciever</h6>
+      <h4>Wide Reciever</h4>
       <Select
         labelId="WR"
         id="WRSpots"
@@ -70,7 +70,7 @@ function FootballLineup(props) {
         <MenuItem value={5}>5</MenuItem>
       </Select>
 
-      <h6>Tight End</h6>
+      <h4>Tight End</h4>
       <Select
         labelId="TE"
         id="TESpots"
@@ -91,7 +91,7 @@ function FootballLineup(props) {
         <MenuItem value={3}>3</MenuItem>
       </Select>
 
-      <h6>SuperFlex (QB/RB/WR/TE)</h6>
+      <h4>SuperFlex (QB/RB/WR/TE)</h4>
       <Select
         labelId="SFX"
         id="SFXSpots"
@@ -111,7 +111,7 @@ function FootballLineup(props) {
         <MenuItem value={2}>2</MenuItem>
       </Select>
 
-      <h6>Flex (RB/WR/TE)</h6>
+      <h4>Flex (RB/WR/TE)</h4>
       <Select
         labelId="Flex"
         id="FlexSpots"

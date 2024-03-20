@@ -14,13 +14,12 @@ import Owner from "./components/GeneralSettings/owner";
 import Trades from "./components/GeneralSettings/trades";
 import Drafts from "./components/GeneralSettings/drafts";
 import Scoring from "./components/GeneralSettings/scoring";
-import Waivers from "./components/GeneralSettings/standings";
+import Waivers from "./components/GeneralSettings/waivers";
 import Standings from "./components/GeneralSettings/standings";
 import Lineup from "./components/GeneralSettings/lineup";
 import CreateByLaws from "./components/submit";
 function App() {
   const [value, setValue] = React.useState({});
-  console.log(value);
 
   // handleChange(fieldName => {
   //   return event => {

@@ -3,7 +3,7 @@ import { Select, MenuItem, TextField } from "@mui/material";
 
 function Waivers(props) {
   return (
-    <div style={{ width: "65%", margin: "auto" }}>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h3>Waiver Settings</h3>
       <Select
         id="waiver"
@@ -24,7 +24,7 @@ function Waivers(props) {
       <h3>Explain any special waiver settings</h3>
       <TextField
         id="specialWaiver"
-        sx={{ height: 20 }}
+        label="Special Waiver Settings"
         value={props.value.specialWaiver}
         onChange={(event) => {
           props.setValue((prevValues) => ({
