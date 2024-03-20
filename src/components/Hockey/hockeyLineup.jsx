@@ -3,7 +3,7 @@ import { Select, MenuItem } from "@mui/material";
 
 function HockeyLineup(props) {
   return (
-    <div>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h3>How many starters for each position?</h3>
       <h6>Goalies</h6>
       <Select

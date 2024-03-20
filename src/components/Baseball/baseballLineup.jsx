@@ -3,7 +3,7 @@ import { Select, MenuItem } from "@mui/material";
 
 function BaseballLineup(props) {
   return (
-    <div style={{ width: "65%", margin: "auto" }}>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h6>1st Base</h6>
       <Select
         labelId="1stB"

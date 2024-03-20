@@ -3,7 +3,7 @@ import { Select, MenuItem } from "@mui/material";
 
 function FootballLineup(props) {
   return (
-    <div style={{ width: "65%", margin: "auto" }}>
+    <div style={{ width: "45%", margin: "auto" }}>
       <h3>How many starters for each position?</h3>
       <h6>Quarter Back</h6>
       <Select
