@@ -20,6 +20,7 @@ function Scoring(props) {
         }}
         variant="filled"
         fullWidth
+        multiline
       />
     </div>
   );
