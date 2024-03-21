@@ -19,11 +19,13 @@ function Drafts(props) {
       >
         <MenuItem value={"Auction"}>Auction</MenuItem>
         <MenuItem value={"Snake Draft"}>Snake Draft</MenuItem>
+        <MenuItem value={"Blind Bid Draft"}>Blind Bid Draft</MenuItem>
       </Select>
       <h3>How do you determine draft order?</h3>
       <TextField
         id="setOrder"
         label="Set Draft Order"
+        multiline
         value={props.value.setOrder}
         onChange={(event) => {
           props.setValue((prevValues) => ({
@@ -46,6 +48,7 @@ function Drafts(props) {
           }));
         }}
         variant="filled"
+        multiline
         fullWidth
       />
     </div>
