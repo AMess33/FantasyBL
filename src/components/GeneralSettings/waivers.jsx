@@ -34,6 +34,7 @@ function Waivers(props) {
         }}
         variant="filled"
         fullWidth
+        multiline
       />
     </div>
   );
