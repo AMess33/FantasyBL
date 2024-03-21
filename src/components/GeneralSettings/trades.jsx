@@ -17,6 +17,7 @@ function Trades(props) {
         }}
         variant="filled"
         fullWidth
+        multiline
       />
       <h3>Does your league allow trade vetos?</h3>
       <Select
@@ -47,6 +48,7 @@ function Trades(props) {
         }}
         variant="filled"
         fullWidth
+        multiline
       ></TextField>
     </div>
   );
