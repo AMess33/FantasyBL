@@ -17,6 +17,7 @@ function Commish(props) {
         }}
         variant="filled"
         fullWidth
+        multiline
       />
     </div>
   );
