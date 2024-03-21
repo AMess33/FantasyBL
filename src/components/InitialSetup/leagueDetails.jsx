@@ -6,7 +6,7 @@ function LeagueDetails(props) {
   // }
   return (
     <div style={{ width: "45%", margin: "auto" }}>
-      <h3>What is your League Name?</h3>
+      <h3>Name of your League?</h3>
       <TextField
         id="leagueName"
         value={props.value.leagueName}
@@ -21,7 +21,7 @@ function LeagueDetails(props) {
         }}
       />
 
-      <h3>Select a Sport</h3>
+      <h3>Select a Sports League</h3>
       <Select
         id="sport"
         variant="filled"
@@ -42,7 +42,7 @@ function LeagueDetails(props) {
         <MenuItem value={"NCAA Football"}>NCAA Football</MenuItem>
       </Select>
 
-      <h3>What Website is your leauge using?</h3>
+      <h3>What site will host your league?</h3>
       <Select
         id="hostSite"
         variant="filled"
