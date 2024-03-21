@@ -17,6 +17,7 @@ function Standings(props) {
         }}
         variant="filled"
         fullWidth
+        multiline
       />
 
       <h3>Is tanking allowed?</h3>
@@ -32,6 +33,7 @@ function Standings(props) {
         }
         variant="filled"
         fullWidth
+        multiline
       />
     </div>
   );
