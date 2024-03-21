@@ -8,6 +8,7 @@ import {
   PlacesPaidOut,
   NumberOfTeams,
   RosterSize,
+  Payouts,
 } from "./components/InitialSetup/leagueSetup";
 import Commish from "./components/GeneralSettings/commish";
 import Owner from "./components/GeneralSettings/owner";
@@ -34,6 +35,7 @@ function App() {
         <LeagueStyle value={value} setValue={setValue} />
         <OwnerFees value={value} setValue={setValue} />
         <PlacesPaidOut value={value} setValue={setValue} />
+        <Payouts value={value} setValue={setValue} />
         <NumberOfTeams value={value} setValue={setValue} />
         <Standings value={value} setValue={setValue} />
         <RosterSize value={value} setValue={setValue} />
