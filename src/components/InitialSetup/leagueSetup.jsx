@@ -5,7 +5,7 @@ import { Select, MenuItem, TextField } from "@mui/material";
 export function LeagueStyle(props) {
   return (
     <div style={{ width: "45%", margin: "auto" }}>
-      <h3>What type of league?</h3>
+      <h3>Leagues matchup format?</h3>
       <Select
         id="matchup"
         value={props.value.matchup}
@@ -101,6 +101,14 @@ export function RosterSize(props) {
         <MenuItem value={30}>30</MenuItem>
         <MenuItem value={31}>31</MenuItem>
         <MenuItem value={32}>32</MenuItem>
+        <MenuItem value={33}>33</MenuItem>
+        <MenuItem value={34}>34</MenuItem>
+        <MenuItem value={35}>35</MenuItem>
+        <MenuItem value={36}>36</MenuItem>
+        <MenuItem value={37}>37</MenuItem>
+        <MenuItem value={38}>38</MenuItem>
+        <MenuItem value={39}>39</MenuItem>
+        <MenuItem value={40}>40</MenuItem>
       </Select>
     </div>
   );
@@ -158,6 +166,28 @@ export function PlacesPaidOut(props) {
         <MenuItem value={9}>9</MenuItem>
         <MenuItem value={10}>10</MenuItem>
       </Select>
+    </div>
+  );
+}
+
+export function Payouts(props) {
+  return (
+    <div style={{ width: "45%", margin: "auto" }}>
+      <h3>Payout structure?</h3>
+      <TextField
+        id="outlined-basic"
+        label="Payouts"
+        value={props.value.payouts}
+        onChange={(event) => {
+          props.setValue((prevValues) => ({
+            ...prevValues,
+            payouts: event.target.value,
+          }));
+        }}
+        variant="filled"
+        fullWidth
+        multiline
+      />
     </div>
   );
 }
