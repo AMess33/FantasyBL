@@ -17,6 +17,7 @@ function OwnerExpectations(props) {
         }}
         variant="filled"
         fullWidth
+        multiline
       />
     </div>
   );
