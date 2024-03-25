@@ -46,11 +46,13 @@ function App() {
           onChange={handleChange("panel1")}
         >
           <AccordionSummary>
-            <Typography sx={{ margin: "auto" }}>League Details</Typography>
+            <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
+              League Details
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <LeagueDetails value={value} setValue={setValue} />
-            {/* <LeagueType value={value} setValue={setValue} /> */}
+            <LeagueType value={value} setValue={setValue} />
             <LeagueStyle value={value} setValue={setValue} />
           </AccordionDetails>
         </Accordion>
@@ -60,7 +62,9 @@ function App() {
           onChange={handleChange("panel2")}
         >
           <AccordionSummary>
-            <Typography sx={{ margin: "auto" }}>League Money</Typography>
+            <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
+              League Money
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
@@ -74,7 +78,9 @@ function App() {
           onChange={handleChange("panel3")}
         >
           <AccordionSummary>
-            <Typography sx={{ margin: "auto" }}>Roster Settings</Typography>
+            <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
+              Roster Settings
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <NumberOfTeams value={value} setValue={setValue} />
@@ -88,7 +94,7 @@ function App() {
           onChange={handleChange("panel4")}
         >
           <AccordionSummary>
-            <Typography sx={{ margin: "auto" }}>
+            <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Standings and Scoring
             </Typography>
           </AccordionSummary>
@@ -103,7 +109,7 @@ function App() {
           onChange={handleChange("panel5")}
         >
           <AccordionSummary>
-            <Typography sx={{ margin: "auto" }}>
+            <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Transaction Settings
             </Typography>
           </AccordionSummary>
@@ -119,7 +125,7 @@ function App() {
           onChange={handleChange("panel6")}
         >
           <AccordionSummary>
-            <Typography sx={{ margin: "auto" }}>
+            <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Owner and Commish Expectations
             </Typography>
           </AccordionSummary>

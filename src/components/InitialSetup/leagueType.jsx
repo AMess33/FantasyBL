@@ -5,7 +5,7 @@ function LeagueType(props) {
   const types = ["Devy", "Empire", "Contract", "Bestball", "Guillotine"];
   // grab multiple values from first select menu, currenlty updating with each selection
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>What Type of Fantasy Contest</h3>
       <Select
         id="leagueType"
@@ -37,11 +37,10 @@ function LeagueType(props) {
         }}
         variant="filled"
         fullWidth
-        renderValue={(selected) => selected.join(", ")}
       >
         {types.map((type) => (
           <MenuItem key={type} value={type}>
-            <Checkbox checked={props.value(type).indexOf(type) > -1} />
+            <Checkbox />
             <ListItemText primary={type} />
           </MenuItem>
         ))}
