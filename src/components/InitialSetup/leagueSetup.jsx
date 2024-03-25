@@ -137,38 +137,27 @@ export function OwnerFees(props) {
 }
 
 // Change to 'payment method'
-// export function Collections(props) {
-//   return (
-//     <div style={{ width: "45%", margin: "auto" }}>
-//       <h3>How many places are paid out?</h3>
-//       <Select
-//         labelId="places"
-//         id="places"
-//         variant="filled"
-//         value={props.value.places}
-//         onChange={(event) => {
-//           props.setValue((prevValues) => ({
-//             ...prevValues,
-//             places: event.target.value,
-//           }));
-//         }}
-//         label="Places Paid"
-//         fullWidth
-//       >
-//         <MenuItem value={1}>1</MenuItem>
-//         <MenuItem value={2}>2</MenuItem>
-//         <MenuItem value={3}>3</MenuItem>
-//         <MenuItem value={4}>4</MenuItem>
-//         <MenuItem value={5}>5</MenuItem>
-//         <MenuItem value={6}>6</MenuItem>
-//         <MenuItem value={7}>7</MenuItem>
-//         <MenuItem value={8}>8</MenuItem>
-//         <MenuItem value={9}>9</MenuItem>
-//         <MenuItem value={10}>10</MenuItem>
-//       </Select>
-//     </div>
-//   );
-// }
+export function Collections(props) {
+  return (
+    <div style={{ width: "45%", margin: "auto" }}>
+      <h3>How are league dues collected?</h3>
+      <TextField
+        id="outlined-basic"
+        label="Collections"
+        variant="filled"
+        fullWidth
+        multiline
+        value={props.value.collections}
+        onChange={(event) =>
+          props.setValue((prevValues) => ({
+            ...prevValues,
+            collections: event.target.value,
+          }))
+        }
+      />
+    </div>
+  );
+}
 
 export function Payouts(props) {
   return (
