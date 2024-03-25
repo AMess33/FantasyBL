@@ -11,7 +11,6 @@ import LeagueType from "./components/InitialSetup/leagueType";
 import {
   LeagueStyle,
   OwnerFees,
-  PlacesPaidOut,
   NumberOfTeams,
   RosterSize,
   Payouts,
