@@ -1,7 +1,9 @@
 import React from "react";
-import { Select, MenuItem } from "@mui/material";
+import { Select, MenuItem, Checkbox, ListItemText } from "@mui/material";
 
 function LeagueType(props) {
+  const types = ["Devy", "Empire", "Contract", "Bestball", "Guillotine"];
+
   return (
     <div style={{ width: "45%", margin: "auto" }}>
       <h3>What Type of Fantasy Contest</h3>
@@ -35,12 +37,14 @@ function LeagueType(props) {
         }}
         variant="filled"
         fullWidth
+        renderValue={(selected) => selected.join(", ")}
       >
-        <MenuItem value={"Devy"}>Devy</MenuItem>
-        <MenuItem value={"Empire"}>Empire</MenuItem>
-        <MenuItem value={"Contract"}>Contract</MenuItem>
-        <MenuItem value={"BestBall"}>BestBall</MenuItem>
-        <MenuItem value={"Guillotine"}>Guillotine</MenuItem>
+        {types.map((type) => (
+          <MenuItem key={type} value={type}>
+            <Checkbox checked={props.value(type).indexOf(type) > -1} />
+            <ListItemText primary={type} />
+          </MenuItem>
+        ))}
       </Select>
     </div>
   );
