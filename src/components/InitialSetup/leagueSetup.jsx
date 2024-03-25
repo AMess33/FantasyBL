@@ -136,39 +136,39 @@ export function OwnerFees(props) {
   );
 }
 
-// Places Paid out
-export function PlacesPaidOut(props) {
-  return (
-    <div style={{ width: "45%", margin: "auto" }}>
-      <h3>How many places are paid out?</h3>
-      <Select
-        labelId="places"
-        id="places"
-        variant="filled"
-        value={props.value.places}
-        onChange={(event) => {
-          props.setValue((prevValues) => ({
-            ...prevValues,
-            places: event.target.value,
-          }));
-        }}
-        label="Places Paid"
-        fullWidth
-      >
-        <MenuItem value={1}>1</MenuItem>
-        <MenuItem value={2}>2</MenuItem>
-        <MenuItem value={3}>3</MenuItem>
-        <MenuItem value={4}>4</MenuItem>
-        <MenuItem value={5}>5</MenuItem>
-        <MenuItem value={6}>6</MenuItem>
-        <MenuItem value={7}>7</MenuItem>
-        <MenuItem value={8}>8</MenuItem>
-        <MenuItem value={9}>9</MenuItem>
-        <MenuItem value={10}>10</MenuItem>
-      </Select>
-    </div>
-  );
-}
+// Change to 'payment method'
+// export function PlacesPaidOut(props) {
+//   return (
+//     <div style={{ width: "45%", margin: "auto" }}>
+//       <h3>How many places are paid out?</h3>
+//       <Select
+//         labelId="places"
+//         id="places"
+//         variant="filled"
+//         value={props.value.places}
+//         onChange={(event) => {
+//           props.setValue((prevValues) => ({
+//             ...prevValues,
+//             places: event.target.value,
+//           }));
+//         }}
+//         label="Places Paid"
+//         fullWidth
+//       >
+//         <MenuItem value={1}>1</MenuItem>
+//         <MenuItem value={2}>2</MenuItem>
+//         <MenuItem value={3}>3</MenuItem>
+//         <MenuItem value={4}>4</MenuItem>
+//         <MenuItem value={5}>5</MenuItem>
+//         <MenuItem value={6}>6</MenuItem>
+//         <MenuItem value={7}>7</MenuItem>
+//         <MenuItem value={8}>8</MenuItem>
+//         <MenuItem value={9}>9</MenuItem>
+//         <MenuItem value={10}>10</MenuItem>
+//       </Select>
+//     </div>
+//   );
+// }
 
 export function Payouts(props) {
   return (

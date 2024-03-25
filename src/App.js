@@ -55,6 +55,7 @@ function App() {
             <LeagueStyle value={value} setValue={setValue} />
           </AccordionDetails>
         </Accordion>
+
         <Accordion
           expanded={expanded === "panel2"}
           onChange={handleChange("panel2")}
@@ -64,20 +65,69 @@ function App() {
           </AccordionSummary>
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
-            <PlacesPaidOut value={value} setValue={setValue} />
             <Payouts value={value} setValue={setValue} />
           </AccordionDetails>
         </Accordion>
-        <NumberOfTeams value={value} setValue={setValue} />
-        <Standings value={value} setValue={setValue} />
-        <RosterSize value={value} setValue={setValue} />
-        <Lineup value={value} setValue={setValue} />
-        <Scoring value={value} setValue={setValue} />
-        <Trades value={value} setValue={setValue} />
-        <Drafts value={value} setValue={setValue} />
-        <Waivers value={value} setValue={setValue} />
-        <Commish value={value} setValue={setValue} />
-        <Owner value={value} setValue={setValue} />
+
+        <Accordion
+          expanded={expanded === "panel3"}
+          onChange={handleChange("panel3")}
+        >
+          <AccordionSummary>
+            <Typography sx={{ margin: "auto" }}>Roster Settings</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <NumberOfTeams value={value} setValue={setValue} />
+            <RosterSize value={value} setValue={setValue} />
+            <Lineup value={value} setValue={setValue} />
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          expanded={expanded === "panel4"}
+          onChange={handleChange("panel4")}
+        >
+          <AccordionSummary>
+            <Typography sx={{ margin: "auto" }}>
+              Standings and Scoring
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Standings value={value} setValue={setValue} />
+            <Scoring value={value} setValue={setValue} />
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          expanded={expanded === "panel5"}
+          onChange={handleChange("panel5")}
+        >
+          <AccordionSummary>
+            <Typography sx={{ margin: "auto" }}>
+              Transaction Settings
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Drafts value={value} setValue={setValue} />
+            <Waivers value={value} setValue={setValue} />
+            <Trades value={value} setValue={setValue} />
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          expanded={expanded === "panel6"}
+          onChange={handleChange("panel6")}
+        >
+          <AccordionSummary>
+            <Typography sx={{ margin: "auto" }}>
+              Owner and Commish Expectations
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Owner value={value} setValue={setValue} />
+            <Commish value={value} setValue={setValue} />
+          </AccordionDetails>
+        </Accordion>
         <CreateByLaws value={value} setValue={setValue} />
       </div>
     </div>
