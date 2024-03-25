@@ -28,19 +28,21 @@ function LeagueType(props) {
       <h3>Special League Type</h3>
       <Select
         id="specialLeagueType"
-        value={props.value.specialLeagueType}
+        value={[props.value.specialLeagueType]}
         onChange={(event) => {
           props.setValue((prevValues) => ({
             ...prevValues,
             specialLeagueType: event.target.value,
           }));
         }}
+        renderValue={(selected) => selected.join(" ,")}
         variant="filled"
         fullWidth
+        multiple
       >
         {types.map((type) => (
           <MenuItem key={type} value={type}>
-            <Checkbox />
+            <Checkbox checked={type.indexOf(type) > -1} />
             <ListItemText primary={type} />
           </MenuItem>
         ))}
