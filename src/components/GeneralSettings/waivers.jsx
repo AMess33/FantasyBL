@@ -3,7 +3,7 @@ import { Select, MenuItem, TextField } from "@mui/material";
 
 function Waivers(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>Waiver Settings</h3>
       <Select
         id="waiver"

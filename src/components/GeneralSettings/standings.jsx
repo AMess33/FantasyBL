@@ -3,7 +3,7 @@ import { TextField } from "@mui/material";
 
 function Standings(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>How are Standings determined?</h3>
       <TextField
         id="standings"

@@ -3,7 +3,7 @@ import { TextField } from "@mui/material";
 
 function Scoring(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>
         Do you have any special scoring settings? If not, tell your league where
         to find the host sites posting of scoring settings

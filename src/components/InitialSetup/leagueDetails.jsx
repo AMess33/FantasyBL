@@ -5,7 +5,7 @@ function LeagueDetails(props) {
   // setValues(prevValues => ({...prevValues, thisValue: event.target.value }))
   // }
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>Name of your League?</h3>
       <TextField
         id="leagueName"

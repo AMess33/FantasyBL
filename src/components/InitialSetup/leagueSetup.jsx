@@ -4,7 +4,7 @@ import { Select, MenuItem, TextField } from "@mui/material";
 // league style
 export function LeagueStyle(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>Leagues matchup format?</h3>
       <Select
         id="matchup"
@@ -33,7 +33,7 @@ export function LeagueStyle(props) {
 // Number of teams
 export function NumberOfTeams(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>How many teams in your league?</h3>
       <Select
         labelId="teams"
@@ -68,7 +68,7 @@ export function NumberOfTeams(props) {
 // Roster Size
 export function RosterSize(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>How many players per team?</h3>
       <Select
         labelId="teams"
@@ -117,7 +117,7 @@ export function RosterSize(props) {
 // Owner Fees
 export function OwnerFees(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>What is the annual owner fee?</h3>
       <TextField
         id="outlined-basic"
@@ -172,7 +172,7 @@ export function OwnerFees(props) {
 
 export function Payouts(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>Payout structure?</h3>
       <TextField
         id="outlined-basic"

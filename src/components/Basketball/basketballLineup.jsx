@@ -3,7 +3,7 @@ import { Select, MenuItem } from "@mui/material";
 
 function BasketballLineup(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>How many starters for each position?</h3>
       <h4>Point Gaurd</h4>
       <Select

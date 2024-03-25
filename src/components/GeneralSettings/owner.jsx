@@ -3,7 +3,7 @@ import { TextField } from "@mui/material";
 
 function OwnerExpectations(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>Owner Expectations</h3>
       <TextField
         id="owner"

@@ -3,7 +3,7 @@ import { Select, MenuItem, TextField } from "@mui/material";
 
 function Drafts(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>What draft format do you use?</h3>
       <Select
         id="draftFormat"

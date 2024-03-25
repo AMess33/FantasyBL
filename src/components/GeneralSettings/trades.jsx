@@ -3,7 +3,7 @@ import { Select, MenuItem, TextField } from "@mui/material";
 
 function Trades(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>What is able to be traded in your league?</h3>
       <TextField
         id="tradeAsset"
