@@ -3,7 +3,7 @@ import { Select, MenuItem, Checkbox, ListItemText } from "@mui/material";
 
 function LeagueType(props) {
   const types = ["Devy", "Empire", "Contract", "Bestball", "Guillotine"];
-
+  // grab multiple values from first select menu, currenlty updating with each selection
   return (
     <div style={{ width: "45%", margin: "auto" }}>
       <h3>What Type of Fantasy Contest</h3>
