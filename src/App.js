@@ -14,6 +14,7 @@ import {
   NumberOfTeams,
   RosterSize,
   Payouts,
+  Collections,
 } from "./components/InitialSetup/leagueSetup";
 import Commish from "./components/GeneralSettings/commish";
 import Owner from "./components/GeneralSettings/owner";
@@ -69,7 +70,7 @@ function App() {
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
             <Payouts value={value} setValue={setValue} />
-            {/* <Collections value={value} setValue={setValue} /> */}
+            <Collections value={value} setValue={setValue} />
           </AccordionDetails>
         </Accordion>
 
