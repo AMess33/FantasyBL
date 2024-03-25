@@ -66,6 +66,7 @@ function App() {
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
             <Payouts value={value} setValue={setValue} />
+            {/* <Collections value={value} setValue={setValue} /> */}
           </AccordionDetails>
         </Accordion>
 

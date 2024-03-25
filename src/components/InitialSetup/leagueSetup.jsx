@@ -137,7 +137,7 @@ export function OwnerFees(props) {
 }
 
 // Change to 'payment method'
-// export function PlacesPaidOut(props) {
+// export function Collections(props) {
 //   return (
 //     <div style={{ width: "45%", margin: "auto" }}>
 //       <h3>How many places are paid out?</h3>
