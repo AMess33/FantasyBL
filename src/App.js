@@ -1,5 +1,11 @@
 import React from "react";
 import "./App.css";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Typography,
+} from "@mui/material";
 import LeagueDetails from "./components/InitialSetup/leagueDetails";
 import LeagueType from "./components/InitialSetup/leagueType";
 import {
@@ -20,7 +26,13 @@ import Standings from "./components/GeneralSettings/standings";
 import Lineup from "./components/GeneralSettings/lineup";
 import CreateByLaws from "./components/submit";
 function App() {
+  // use state for form values
   const [value, setValue] = React.useState({});
+  // use state for accordion expansion
+  const [expanded, setExpanded] = React.useState("panel1");
+  const handleChange = (panel) => (event, newExpanded) => {
+    setExpanded(newExpanded ? panel : false);
+  };
 
   // handleChange(fieldName => {
   //   return event => {
@@ -30,12 +42,32 @@ function App() {
     <div className="App">
       <header className="App-header">Fantasy By Laws Generator</header>
       <div className="App-body">
-        <LeagueDetails value={value} setValue={setValue} />
-        <LeagueType value={value} setValue={setValue} />
-        <LeagueStyle value={value} setValue={setValue} />
-        <OwnerFees value={value} setValue={setValue} />
-        <PlacesPaidOut value={value} setValue={setValue} />
-        <Payouts value={value} setValue={setValue} />
+        <Accordion
+          expanded={expanded === "panel1"}
+          onChange={handleChange("panel1")}
+        >
+          <AccordionSummary>
+            <Typography sx={{ margin: "auto" }}>League Details</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <LeagueDetails value={value} setValue={setValue} />
+            {/* <LeagueType value={value} setValue={setValue} /> */}
+            <LeagueStyle value={value} setValue={setValue} />
+          </AccordionDetails>
+        </Accordion>
+        <Accordion
+          expanded={expanded === "panel2"}
+          onChange={handleChange("panel2")}
+        >
+          <AccordionSummary>
+            <Typography sx={{ margin: "auto" }}>League Money</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <OwnerFees value={value} setValue={setValue} />
+            <PlacesPaidOut value={value} setValue={setValue} />
+            <Payouts value={value} setValue={setValue} />
+          </AccordionDetails>
+        </Accordion>
         <NumberOfTeams value={value} setValue={setValue} />
         <Standings value={value} setValue={setValue} />
         <RosterSize value={value} setValue={setValue} />
