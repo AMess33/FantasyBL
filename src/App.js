@@ -6,6 +6,7 @@ import {
   AccordionSummary,
   Typography,
 } from "@mui/material";
+import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import LeagueDetails from "./components/InitialSetup/leagueDetails";
 import LeagueType from "./components/InitialSetup/leagueType";
 import {
@@ -48,8 +49,9 @@ function App() {
         >
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
-              League Details
+              League Details{" "}
             </Typography>
+            <RadioButtonUncheckedIcon />
           </AccordionSummary>
           <AccordionDetails>
             <LeagueDetails value={value} setValue={setValue} />
@@ -66,6 +68,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Money
             </Typography>
+            <RadioButtonUncheckedIcon />
           </AccordionSummary>
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
@@ -82,6 +85,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Roster Settings
             </Typography>
+            <RadioButtonUncheckedIcon />
           </AccordionSummary>
           <AccordionDetails>
             <NumberOfTeams value={value} setValue={setValue} />
@@ -98,6 +102,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Standings and Scoring
             </Typography>
+            <RadioButtonUncheckedIcon />
           </AccordionSummary>
           <AccordionDetails>
             <Standings value={value} setValue={setValue} />
@@ -113,6 +118,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Transaction Settings
             </Typography>
+            <RadioButtonUncheckedIcon />
           </AccordionSummary>
           <AccordionDetails>
             <Drafts value={value} setValue={setValue} />
@@ -129,6 +135,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Owner and Commish Expectations
             </Typography>
+            <RadioButtonUncheckedIcon />
           </AccordionSummary>
           <AccordionDetails>
             <Owner value={value} setValue={setValue} />
