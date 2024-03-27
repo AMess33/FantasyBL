@@ -139,7 +139,7 @@ export function OwnerFees(props) {
 // Change to 'payment method'
 export function Collections(props) {
   return (
-    <div style={{ width: "45%", margin: "auto" }}>
+    <div style={{ width: "55%", margin: "auto" }}>
       <h3>How are league dues collected?</h3>
       <TextField
         id="outlined-basic"
