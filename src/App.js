@@ -6,6 +6,8 @@ import {
   AccordionSummary,
   Typography,
 } from "@mui/material";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import LeagueDetails from "./components/InitialSetup/leagueDetails";
 import LeagueType from "./components/InitialSetup/leagueType";
@@ -51,7 +53,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Details{" "}
             </Typography>
-            <RadioButtonUncheckedIcon />
+            <CheckCircleIcon sx={{ color: "green" }} />
           </AccordionSummary>
           <AccordionDetails>
             <LeagueDetails value={value} setValue={setValue} />
