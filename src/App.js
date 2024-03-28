@@ -6,7 +6,6 @@ import {
   AccordionSummary,
   Typography,
 } from "@mui/material";
-import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import LeagueDetails from "./components/InitialSetup/leagueDetails";
@@ -37,10 +36,6 @@ function App() {
     setExpanded(newExpanded ? panel : false);
   };
 
-  // handleChange(fieldName => {
-  //   return event => {
-  //     setValue(prev => ({ …prev, [fieldName]: e.target.value })
-  // onChange={handleChange(‘sport’)}
   return (
     <div className="App">
       <header className="App-header">Fantasy By Laws Generator</header>
