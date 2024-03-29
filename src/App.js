@@ -54,8 +54,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Details
             </Typography>
+            <DetailsIcon />
           </AccordionSummary>
-          <DetailsIcon />
           <AccordionDetails>
             <LeagueDetails value={value} setValue={setValue} />
             <LeagueType value={value} setValue={setValue} />
@@ -71,8 +71,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Money
             </Typography>
+            <MoneyIcon />
           </AccordionSummary>
-          <MoneyIcon />
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
             <Payouts value={value} setValue={setValue} />
@@ -88,8 +88,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Roster Settings
             </Typography>
+            <RosterIcon />
           </AccordionSummary>
-          <RosterIcon />
           <AccordionDetails>
             <NumberOfTeams value={value} setValue={setValue} />
             <RosterSize value={value} setValue={setValue} />
@@ -105,8 +105,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Standings and Scoring
             </Typography>
+            <StandingsIcon />
           </AccordionSummary>
-          <StandingsIcon />
           <AccordionDetails>
             <Standings value={value} setValue={setValue} />
             <Scoring value={value} setValue={setValue} />
@@ -121,8 +121,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Transaction Settings
             </Typography>
+            <TransactionIcon />
           </AccordionSummary>
-          <TransactionIcon />
           <AccordionDetails>
             <Drafts value={value} setValue={setValue} />
             <Waivers value={value} setValue={setValue} />
@@ -138,8 +138,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Owner and Commish Expectations
             </Typography>
+            <OwnerIcon />
           </AccordionSummary>
-          <OwnerIcon />
           <AccordionDetails>
             <Owner value={value} setValue={setValue} />
             <Commish value={value} setValue={setValue} />
