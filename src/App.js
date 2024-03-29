@@ -6,8 +6,6 @@ import {
   AccordionSummary,
   Typography,
 } from "@mui/material";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import LeagueDetails from "./components/InitialSetup/leagueDetails";
 import LeagueType from "./components/InitialSetup/leagueType";
 import {
@@ -18,6 +16,14 @@ import {
   Payouts,
   Collections,
 } from "./components/InitialSetup/leagueSetup";
+import {
+  DetailsIcon,
+  MoneyIcon,
+  RosterIcon,
+  TransactionIcon,
+  OwnerIcon,
+  StandingsIcon,
+} from "./components/icon";
 import Commish from "./components/GeneralSettings/commish";
 import Owner from "./components/GeneralSettings/owner";
 import Trades from "./components/GeneralSettings/trades";
@@ -48,8 +54,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Details
             </Typography>
-            <CheckCircleIcon sx={{ color: "green" }} />
           </AccordionSummary>
+          <DetailsIcon />
           <AccordionDetails>
             <LeagueDetails value={value} setValue={setValue} />
             <LeagueType value={value} setValue={setValue} />
@@ -65,8 +71,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Money
             </Typography>
-            <RadioButtonUncheckedIcon />
           </AccordionSummary>
+          <MoneyIcon />
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
             <Payouts value={value} setValue={setValue} />
@@ -82,8 +88,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Roster Settings
             </Typography>
-            <RadioButtonUncheckedIcon />
           </AccordionSummary>
+          <RosterIcon />
           <AccordionDetails>
             <NumberOfTeams value={value} setValue={setValue} />
             <RosterSize value={value} setValue={setValue} />
@@ -99,8 +105,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Standings and Scoring
             </Typography>
-            <RadioButtonUncheckedIcon />
           </AccordionSummary>
+          <StandingsIcon />
           <AccordionDetails>
             <Standings value={value} setValue={setValue} />
             <Scoring value={value} setValue={setValue} />
@@ -115,8 +121,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Transaction Settings
             </Typography>
-            <RadioButtonUncheckedIcon />
           </AccordionSummary>
+          <TransactionIcon />
           <AccordionDetails>
             <Drafts value={value} setValue={setValue} />
             <Waivers value={value} setValue={setValue} />
@@ -132,8 +138,8 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Owner and Commish Expectations
             </Typography>
-            <RadioButtonUncheckedIcon />
           </AccordionSummary>
+          <OwnerIcon />
           <AccordionDetails>
             <Owner value={value} setValue={setValue} />
             <Commish value={value} setValue={setValue} />
