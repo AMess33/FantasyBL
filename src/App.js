@@ -46,7 +46,7 @@ function App() {
         >
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
-              League Details{" "}
+              League Details
             </Typography>
             <CheckCircleIcon sx={{ color: "green" }} />
           </AccordionSummary>
