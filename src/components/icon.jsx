@@ -16,3 +16,19 @@ export function MoneyIcon(props) {
     return <RadioButtonUncheckedIcon />;
   }
 }
+
+export function RosterIcon(props) {
+  if (props.isComplete) {
+    return <CheckCircleIcon />;
+  } else {
+    return <RadioButtonUncheckedIcon />;
+  }
+}
+
+export function StandingsIcon(props) {
+  if (props.isComplete) {
+    return <CheckCircleIcon />;
+  } else {
+    return <RadioButtonUncheckedIcon />;
+  }
+}
