@@ -26,7 +26,7 @@ export function MoneyIcon(props) {
 }
 
 export function RosterIcon(props) {
-  if (props.value.teams && props.value.roster && props.value.lineup) {
+  if (props.value.teams && props.value.roster) {
     return <CheckCircleIcon sx={{ color: "green" }} />;
   } else {
     return <RadioButtonUncheckedIcon />;
@@ -50,11 +50,11 @@ export function TransactionIcon(props) {
     props.value.draftFormat &&
     props.value.setOrder &&
     props.value.multipleDrafts &&
-    props.value.waivers &&
+    props.value.waiver &&
     props.value.specialWaiver &&
     props.value.tradeAsset &&
     props.value.veto &&
-    props.value.collusion
+    props.value.colusion
   ) {
     return <CheckCircleIcon sx={{ color: "green" }} />;
   } else {
