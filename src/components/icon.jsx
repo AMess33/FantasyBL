@@ -32,3 +32,19 @@ export function StandingsIcon(props) {
     return <RadioButtonUncheckedIcon />;
   }
 }
+
+export function TransactionIcon(props) {
+  if (props.isComplete) {
+    return <CheckCircleIcon />;
+  } else {
+    return <RadioButtonUncheckedIcon />;
+  }
+}
+
+export function OwnerIcon(props) {
+  if (props.isComplete) {
+    return <CheckCircleIcon />;
+  } else {
+    return <RadioButtonUncheckedIcon />;
+  }
+}
