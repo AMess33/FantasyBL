@@ -54,7 +54,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Details
             </Typography>
-            <DetailsIcon />
+            <DetailsIcon value={value} />
           </AccordionSummary>
           <AccordionDetails>
             <LeagueDetails value={value} setValue={setValue} />
@@ -71,7 +71,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               League Money
             </Typography>
-            <MoneyIcon />
+            <MoneyIcon value={value} />
           </AccordionSummary>
           <AccordionDetails>
             <OwnerFees value={value} setValue={setValue} />
@@ -88,7 +88,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Roster Settings
             </Typography>
-            <RosterIcon />
+            <RosterIcon value={value} />
           </AccordionSummary>
           <AccordionDetails>
             <NumberOfTeams value={value} setValue={setValue} />
@@ -105,7 +105,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Standings and Scoring
             </Typography>
-            <StandingsIcon />
+            <StandingsIcon value={value} />
           </AccordionSummary>
           <AccordionDetails>
             <Standings value={value} setValue={setValue} />
@@ -121,7 +121,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Transaction Settings
             </Typography>
-            <TransactionIcon />
+            <TransactionIcon value={value} />
           </AccordionSummary>
           <AccordionDetails>
             <Drafts value={value} setValue={setValue} />
@@ -138,7 +138,7 @@ function App() {
             <Typography sx={{ fontWeight: "bold", margin: "auto" }}>
               Owner and Commish Expectations
             </Typography>
-            <OwnerIcon />
+            <OwnerIcon value={value} />
           </AccordionSummary>
           <AccordionDetails>
             <Owner value={value} setValue={setValue} />
