@@ -20,8 +20,6 @@ function CreateByLaws(props) {
 export default CreateByLaws;
 
 // google api code
-//  google api key -->
-//  AIzaSyB35-8eu8Eo81EdPadX4gn5YVHHOPomo0Y
 
 // <!DOCTYPE html>
 // <html>
@@ -47,7 +45,7 @@ export default CreateByLaws;
 //       // TODO(developer): Set to client ID and API key from the Developer Console
 //       const CLIENT_ID =
 //         "772990820900-k40jl089a8oer1njsqvao747lgm8ajcq.apps.googleusercontent.com";
-//       const API_KEY = "AIzaSyB35-8eu8Eo81EdPadX4gn5YVHHOPomo0Y";
+//       const API_KEY = ;
 
 //       // Discovery doc URL for APIs used by the quickstart
 //       const DISCOVERY_DOC =
